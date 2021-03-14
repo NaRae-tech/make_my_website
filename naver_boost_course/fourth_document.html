@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset = "UTF-8">
+    <title> 2021.03.14 </title>
+    <style>
+      th, td { border: 1px solid; }
+    </style>
+  </head>
+  <body>
+    <p>
+      <h1>이미지태그사용</h1>
+      <img src="./ohmygirl.jpg" alt="오마이걸" height="400">
+      <img src="http://placehold.it/500*250" alt = "">
+    </p>
+    <p>
+      <h1> 표 만들기 </h1>
+      <table>
+        <caption> Monthly Savings </caption>
+        <thread>
+          <tr>
+            <th>Month</th>
+            <th>Savings</th>
+          </tr>
+        </thread>
+       <tbody>
+         <tr>
+           <td>January</td>
+           <td>$100</td>
+         </tr>
+         <tr>
+          <td>Feburary</td>
+          <td>$80</td>
+        </tr>
+       </tbody>
+       <tfoot>
+        <tr>
+          <td>sum</td>
+          <td>$180</td>
+        </tr>
+       </tfoot>
+    </table>
+    </p>
+    <p>
+      <h1> 병합표 만들기 </h1>
+      <table>
+        <caption> Monthly Savings </caption>
+        <thread>
+          <tr>
+            <th>Month</th>
+            <th>Savings</th>
+          </tr>
+        </thread>
+       <tbody>
+         <tr>
+           <td>January</td>
+           <td rowspan="2">$100</td>
+         </tr>
+         <tr>
+          <td>Feburary</td>
+        </tr>
+       </tbody>
+       <tfoot>
+        <tr>
+          <td colspan="2">sum</td>
+        </tr>
+       </tfoot>
+    </table>
+    </p>
+    <p>
+      <h1>직접 표 구현하기</h1>
+      <table>
+        <caption>Specification values</caption>
+        <thread>
+          <tr>
+            <th rowspan="2"> Grade </th>
+            <th rowspan="2"> Point </th>
+            <th colspan="2"> strength </th>
+            <th rowspan="2"> Percent </th>
+          </tr>
+          <tr>
+            <th>kg/mm</th>
+            <th>lb/in</th>
+          </tr>
+        </thread>
+        <tbody>
+          <tr>
+            <td> Hard </td>
+            <td> 0.45 </td>
+            <td> 56.2</td>
+            <td> 80,0000 </td> 
+            <td> 20 </td>
+          </tr>
+          <tr>
+            <td> Medium </td>
+            <td> 0.45 </td>
+            <td> 49.2</td>
+            <td> 70,0000 </td> 
+            <td> 25 </td>
+          </tr>
+          <tr>
+            <td> Soft </td>
+            <td> 0.45 </td>
+            <td> 42.2</td>
+            <td> 60,0000 </td> 
+            <td> 30 </td>
+          </tr>
+        </tbody>
+      </table>
+    </p>
+  </body>
+</html>
