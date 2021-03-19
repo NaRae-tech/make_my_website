@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang = "ko">
+  <header>
+    <meta charset="UTF-8">
+    <title>연습문제 2</title>
+  </header>
+  <body>
+    <div id="container">
+      <h1>프런트 엔드 개발지 지원서</h1>
+      <p>HTML, CSS, 자바스크립트의 기술을 이해하고 실무 경험이 있는 분을 찾습니다.</p>  
+    </div>
+    <hr>
+   <form>
+   <h4>개인정보</h4>
+      <ul>
+        <li>
+          <label for="name">이름</label>
+          <input type="text" id="name" placeholder="공백 없이 입력하세요"><br>
+        </li>
+        <li>
+          <label for="tel">연락처</label>
+          <input type="tel" id="tel"><br>
+        </li>
+      </ul>
+    
+    <h4>지원분야</h4>
+      <ul>
+        <li>
+          <label> <input type="radio" name="field" value="publishing"> "웹 퍼블리싱" </label>
+        </li>
+        <li>
+          <label> <input type="radio" name="field" value="application"> 웹 애플리케이션 개발 </label>
+        </li>
+        <li>
+          <label> <input type="radio" name="field" value="environment"> 개발 환경 개선 </label>
+        </li>
+      </ul>
+      
+    <h4> 지원동기</h4>
+      <textarea id="reason" cols="60" rows="5" placeholder="본사 지원 동기를 간략히 써 주세요."></textarea>
+    
+    <button type="submit">접수하기</button>
+    <button type="reset">다시 쓰기</button>
+    </form>
+  </body>
+</html>
