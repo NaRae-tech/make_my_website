@@ -1,0 +1,18 @@
+.header{
+  /*넓이 설정 유의*/
+  /*width : 1000;
+  height : 120;
+  padding : 0 0 0 40;
+  */
+  background-color : #000;
+  font-size : 40px;
+  font-weight:bold;
+  color:#fff;
+}
+.selection{
+  padding : 40;
+}
+span{
+  border : 1px solid #d1d1d1;
+  text-align:center;
+}
