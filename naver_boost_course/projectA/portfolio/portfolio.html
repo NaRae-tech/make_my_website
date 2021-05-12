@@ -5,53 +5,66 @@
     <title>portfolio A</title>
     <!--외부스타일시트 사용하기-->
     <link rel="stylesheet" href="css/portfolio.css">
+  </head>
+  <body>
     <div class = "header">
       <h1>포트폴리오</h1>
     </div>
-  </head>
-  <body>
-    <main>
-      <div class = "selection">
-        <span class ="table">테이블 요소</span>
-        <span class ="form">폼 요소</span>
-        <span class ="list">리스트 요소</span>
-      </div>
-      <div>
-        <p>구성요소</p>
-        <hr>
-        <table>
+    <div class = "main">
+      <ul>
+        <li><a href="#table"> 테이블 요소</a></li>
+        <li><a href ="#form">폼 요소</a></li>
+        <li><a href="#list">리스트 요소</a></li>
+      </ul>
+      <br>
+      <p class="component">구성 요소</p>
+      <hr class = "start_component">
+      <table class = "big_table">
+        <thead>
           <tr>
-            <td>테이블 요소</td>
+            <th><a name="table">테이블 요소</a></th>
           </tr>
-          <tr>
-            <td>
-              콘텐츠 영역
-            </td>
-          </tr>
-        </table>
-        <table>
-          <tr>
-            <td>폼 요소</td>
-          </tr>
+        </thead>
+        <tbody>
           <tr>
             <td>
               콘텐츠 영역
             </td>
           </tr>
-        </table>
-        <table>
+        </tbody>
+      </table>
+      <table class = "big_table">
+        <thead>
           <tr>
-            <td>리스트 요소</td>
+            <th><a name="form">폼 요소</a></th>
           </tr>
+        </thead>
+        <tbody>
           <tr>
             <td>
               콘텐츠 영역
             </td>
           </tr>
-        </table>
-      </div>
-    </main>
-    <footer>
+        </tbody>
+      </table>
+      <table class = "big_table">
+        <thead>
+          <tr>
+            <th><a name="list">리스트 요소</a></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              콘텐츠 영역
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <footer class = "footer">
+      <hr class = "start_footer">
+      <br>
       <div class="footer">
         <p class="address">주소 : 경기도 성남시 분당구, E-MAIL : honggildong@naver.com</p>
         <p class="Copyright">Copyright @ Hong Gil Dong. All Rights Reserved</p>

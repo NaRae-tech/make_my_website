@@ -1,18 +1,108 @@
+/*header와 maint 설정*/
 .header{
-  /*넓이 설정 유의*/
-  /*width : 1000;
-  height : 120;
-  padding : 0 0 0 40;
-  */
   background-color : #000;
+}
+h1{
+  margin: 0 auto;
+  width:1080px;
+  padding : 30px 0px 0px 40px;
+  height : 90px;
   font-size : 40px;
-  font-weight:bold;
+  font-weight : bold;
   color:#fff;
+  font-family:'나눔 고딕', NanumGothic, '돋움', Dotum, sans-serif;
 }
-.selection{
-  padding : 40;
+.main{
+  padding: 40px 40px 10px 40px;
+  width:1000px;
+  margin: 0 auto;
 }
-span{
+
+/*테이블, 폼, 리스트요소 박스 설정*/
+ul{
+  list-style : none;
+  height : 33px;
+  padding-inline-start:0;
+}
+li{
+  padding : 5px 0px 5px 0px;
+  margin : 0px 14px 0px 0px;
+  float:left;
   border : 1px solid #d1d1d1;
-  text-align:center;
+  width : 322px;
+  height : 23px;
+  font-family:'나눔 고딕', NanumGothic, '돋움', Dotum, sans-serif;
+  list-style:none;
+  font-size: 16px;
+  color : #000;
+  text-align : center;
+}
+li:last-child{
+  margin : 0px 0px 0px 0px;
+}
+a{
+  color:#000;
+  text-decoration:none;
+}
+li:hover{
+  border-color:#454545;
+  font-weight : bold;
+}
+/*'구성요소' 글자와 밑의 line 설정*/
+.component{
+  font-family:'나눔 고딕', NanumGothic, '돋움', Dotum, sans-serif;
+  font-size:20px;
+  font-weight : bold;
+  color:#000;
+}
+.start_component{
+  border-width:1px solid;
+  border-color:#454545;
+  text-align : left;
+  width : 1000px;
+}
+
+/*테이블, 폼, 리스트요소 큰 테이블*/
+.big_table{
+  margin : 30px 0px 30px 0px;
+  border : 1px solid #d1d1d1;
+  border-collapse : collapse;
+}
+.big_table th{
+  font-family:'나눔 고딕', NanumGothic, '돋움', Dotum, sans-serif;
+  width : 940px;
+  height : 46px;
+  padding : 0px 0px 0px 15px;
+  font-size : 16px;
+  color : #333;
+  font-weight : bold;
+  background-color : #f7f7f7;
+  border : 1px solid #d1d1d1;
+  text-align: left;
+}
+.big_table td{
+  font-family:'나눔 고딕', NanumGothic, '돋움', Dotum, sans-serif;
+  width : 940px;
+  padding : 30px 30px 30px 30px;
+  font-size: 12px;
+  color : #000;
+  border : 1px solid #d1d1d1;
+}
+
+/*footer line, address, copyright 정보*/
+.start_footer{
+  border-width:1px solid;
+  border-color:#d1d1d1;
+}
+.address{
+  font-family:'나눔 고딕', NanumGothic, '돋움', Dotum, sans-serif;
+  font-size: 12px;
+  color : #999;
+  text-align : center;
+}
+.Copyright{
+  font-family:'나눔 고딕', NanumGothic, '돋움', Dotum, sans-serif;
+  font-size: 12px;
+  color : #000;
+  text-align : center;
 }
