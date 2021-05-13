@@ -101,7 +101,6 @@ li:hover{
   width : 1000px;
   margin : 30px 0px 30px 0px;
   border : 1px solid #d1d1d1;
-  border-collapse : collapse;
 }
 .list_table{
   margin : 30px 0px 0px 0px;
@@ -131,6 +130,7 @@ li:hover{
 .address_email{
   text-align: center;
   color : #999;
+  padding : 0px 0px 10px 0px;
 }
 .copyright{
   text-align: center;
