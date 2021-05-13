@@ -1,74 +1,63 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang = "kor">
   <head>
     <meta charset = "UTP-8">
-    <title>portfolio A</title>
-    <!--외부스타일시트 사용하기-->
-    <link rel="stylesheet" href="css/portfolio.css">
+    <title>portofolio A</title>
+    <link rel ="stylesheet" href = "css/portfolio.css">
   </head>
   <body>
-    <div class = "header">
-      <h1>포트폴리오</h1>
-    </div>
-    <div class = "main">
+    <header>
+      <h1 class="header_title">포트폴리오</h1>
+    </header>
+    <nav class="navigation">
       <ul>
-        <li><a href="#table"> 테이블 요소</a></li>
-        <li><a href ="#form">폼 요소</a></li>
-        <li><a href="#list">리스트 요소</a></li>
+        <li class ="nav_table"><a href = "#table">테이블 요소</a></li>
+        <li class ="nav_form"><a href = "#form">폼 요소</a></li>
+        <li class ="nav_list"><a href = "#list">리스트 요소</a></li>
       </ul>
-      <br>
-      <p class="component">구성 요소</p>
-      <hr class = "start_component">
-      <table class = "big_table">
+    </nav>
+    <main class="main_part">
+      <p class="main_title">구성요소</p>
+      <table class = "table_table" id="table">
         <thead>
           <tr>
-            <th><a name="table">테이블 요소</a></th>
+            <th>테이블 요소</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>
-              콘텐츠 영역
-            </td>
+            <td>콘텐츠 영역</td>
           </tr>
         </tbody>
       </table>
-      <table class = "big_table">
+      <table class = "form_table" id ="form">
         <thead>
           <tr>
-            <th><a name="form">폼 요소</a></th>
+            <th>폼 요소</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>
-              콘텐츠 영역
-            </td>
+            <td>콘텐츠 영역</td>
           </tr>
         </tbody>
       </table>
-      <table class = "big_table">
+      <table class = "list_table"id = "list"> 
         <thead>
           <tr>
-            <th><a name="list">리스트 요소</a></th>
+            <th>리스트 요소</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>
-              콘텐츠 영역
-            </td>
+            <td>콘텐츠 영역</td>
           </tr>
         </tbody>
       </table>
-    </div>
-    <footer class = "footer">
-      <hr class = "start_footer">
-      <br>
-      <div class="footer">
-        <p class="address">주소 : 경기도 성남시 분당구, E-MAIL : honggildong@naver.com</p>
-        <p class="Copyright">Copyright @ Hong Gil Dong. All Rights Reserved</p>
-      </div>
+    </main>
+    <footer class="footer_part">
+      <address class = "address_email">주소: 경기도 성남시 분당구, E-MAIL: honggildong@naver.com</address>
+      <p class="copyright">Copyright © Hong Gil Dong. All Rights Reserved</p>
     </footer>
   </body>
 </html>
