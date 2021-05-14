@@ -1,0 +1,130 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p,a, address, img,dl, dt, dd, ol, ul, li,form, label, 
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, details,footer, header,nav, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, footer, header, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ul {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*header 설정*/
+.header_part{
+  background-color : #000;
+}
+.head_title{
+  width : 1000px;
+  height : 80px;
+  padding : 40px 40px 0px 40px;
+  font-size:40px;
+  font-weight : bold;
+  color : #fff;
+  margin : 0px auto; 
+}
+/*nav 설정*/
+.nav_part{
+  width :1000px;
+  padding : 40px 40px;
+  margin : 0px auto;
+}
+.nav_table, .nav_form, .nav_list{
+  float : left;
+  width : 322px;
+  height:25px;
+  font-size : 16px;
+  color : #000;
+  text-align : center;
+  padding : 8px 0px 0px 0px;
+  border : 1px solid #d1d1d1;
+  margin : 0px 14px 0px 0px;
+}
+.nav_list{
+  margin : 0px 0px 0px 0px;
+}
+.nav_part li:hover{
+  color:#454545;
+  font-weight: bold;
+}
+.nav_table a, .nav_form a, .nav_list a{
+  text-decoration:none;
+  color : #000;
+  display:inline-block;
+}
+
+/*main 설정*/
+.main_part{
+  width : 1000px;
+  padding : 40px 40px;
+  margin : 0px auto;
+}
+.main_title{
+  font-size:20px;
+  font-weight :bold;
+  color :#000;
+  padding : 30px 0px;
+  border-bottom : 1px solid #454545;
+}
+.table_table, .form_table, .list_table{
+  width : 1000px;
+  margin : 30px 0px;
+  border: 1px solid #d1d1d1;
+}
+.list_table{
+  margin : 0px 0px 0px 0px;
+}
+.table_table th, .form_table th, .list_table th{
+  font-size:16px;
+  color : #333;
+  font-weight : bold;
+  background-color : #f7f7f7;
+  border : 1px solid #d1d1d1;
+  padding : 10px 0px 0px 15px;
+  height : 23px;
+  text-align : left;
+}
+.table_table td , .form_table td, .list_table td{
+  font-size:12px;
+  color : #000;
+  padding : 30px;
+}
+.size_table{
+
+}
+/*footer 설정*/
+.footer_part{
+  padding : 20px 0px 0px 0px;
+  border-top : 1px solid #d1d1d1;
+}
+.address_email{
+  font-size : 12px;
+  color : #999;
+  text-align : center;
+}
+.copyright{
+  font-size:12px;
+  color : #000;
+  text-align : center;
+  padding:10px 0px 0px 0px;
+}
