@@ -86,6 +86,7 @@ table {
   padding : 30px 0px;
   border-bottom : 1px solid #454545;
 }
+/*테이블 요소 설정*/
 .table_table, .form_table, .list_table{
   width : 1000px;
   margin : 30px 0px;
@@ -112,6 +113,88 @@ table {
 .size_table{
 
 }
+/*폼요소 설정*/
+.membership_form_title{
+  font-size:14px;
+  font-weight :bold;
+  color :#000;
+  padding : 0px 0px 20px 0px;
+}
+.membership_form{
+  border : 1px solid #e4e4e4;
+  background-color:#fbfbfb;
+  padding : 20px 20px;
+}
+.form_table td{
+  font-size:14px;
+  color : #000;
+  font-weight:bold;
+}
+.form_table li{
+  padding : 10px 0px;
+}
+.id, .pwd, .name{
+  width : 924px;
+  font-size: 12px;
+  color : #000;
+  padding : 5px 5px;
+  margin : 10px 0px 0px 0px;
+}
+.year, .month, .day{
+  font-size:12px;
+  color : #000;
+  padding : 5px 5px;
+  margin: 10px 5px 0px 0px;
+  width : 305px; 
+}
+.day{
+  margin: 10px 0px 0px 0px;
+}
+.man, .woman{
+  font-weight:normal;
+  margin : 0px 60px 0px 0px;
+}
+.email,.vertification_number{
+  width : 924px;
+  padding : 5px 5px;
+  margin : 10px 0px 0px 0px;
+}
+.phone_number{
+  width : 795px;
+  padding : 5px 5px;
+  margin : 10px 10px 0px 0px;
+}
+.vertification_button{
+  width : 110px;
+  padding : 5px 0px;
+  margin : 10px 0px 0px 0px;
+  font-size : 12px;
+  color : #fff;
+  border : 1px solid #08a600;
+  background-color : #4ec53d;
+}
+.vertification_button{
+  cursor:pointer;
+}
+.exercise,.cook,.travel,.game,.computer,.music,.movie,.book{
+  margin : 0px 50px 10px 0px;
+  font-weight:normal;
+}
+.join_message{
+  width : 924px;
+  margin : 10px 0px 10px 0px;
+}
+.sign_up_button{
+  width: 924px;
+  border : 1px solid #08a600;
+  background-color : #4ec53d;
+  font-size:16px;
+  color:#fff;
+}
+.sign_up_button:hover{
+  cursor:pointer;
+}
+/*리스트 요소 설정*/
 /*footer 설정*/
 .footer_part{
   padding : 20px 0px 0px 0px;

@@ -155,58 +155,66 @@
         <tbody>
           <tr>
             <td>
-              <h4>회원가입</h4>
-              <form>
+              <p class="membership_form_title">회원가입</p>
+              <form class="membership_form">
                 <ul>
                   <li>
-                    <label for="user-id">아이디</label>
-                    <input type="text" id="user-id">
+                    <label for="user-id">아이디</label> <br/>
+                    <input type="text" id="user-id" class="id">
                   </li>
                   <li>
-                    <label for="user-pwd">비밀번호</label>
-                    <input type="text" id="user-pwd">
+                    <label for="user-pwd">비밀번호</label> <br/>
+                    <input type="text" id="user-pwd" class="pwd">
                   </li>
                   <li>
-                    <label for="user-name">이름</label>
-                    <input type="text" id="user-name">
+                    <label for="user-name">이름</label> <br/>
+                    <input type="text" id="user-name" class="name">
                   </li>
                   <li>
                     <!--select option 태그를 써야하나-->
-                    <label for="user-birth">생년월일</label>
-                    <select></select>
+                    <label for="user-birth">생년월일</label> <br/>
+                    <select name="year" class="year">
+                      <option value="">년도</option>
+                    </select>
+                    <select name="month" class="month">
+                      <option value="">월</option>
+                    </select>
+                    <select name="day" class="day">
+                      <option value="">일</option>
+                    </select>
                   </li>
                   <li>
-                    <p>성별</p>
-                    <label><input type="radio" name="gender" value="man">남자</label>
-                    <label><input type="radio" name="gender" value="woman">여자</label>
+                    <p class="gender">성별</p> <br/>
+                    <label class="man"><input type="radio" name="gender" value="man" >남자</label>
+                    <label class="woman"><input type="radio" name="gender" value="woman">여자</label>
                   </li>
                   <li>
-                    <label for="user-email">이메일</label>
-                    <input type="email" id="user-email" placeholder="이메일 주소에 '@'를 포함해주세요.">
+                    <label for="user-email">이메일</label> <br/>
+                    <input type="email" id="user-email" class="email" placeholder="이메일 주소에 '@'를 포함해주세요.">
                   </li>
                   <li>
-                    <label for="user-phone">휴대전화</label>
-                    <input type="tel" id="user-phone" placeholder="숫자만 입력해주세요.">
-                    <button type="submit">인증번호 받기</button>
-                    <input type="text" placeholder="인증번호를 입력해주세요.">
+                    <label for="user-phone">휴대전화</label> <br/>
+                    <input type="tel" id="user-phone" class="phone_number" placeholder="숫자만 입력해주세요.">
+                    <button type="submit" class="vertification_button">인증번호 받기</button>
+                    <input type="text" class="vertification_number" placeholder="인증번호를 입력해주세요.">
                   </li>
                   <li>
-                    <p>취미</p>
-                    <label><input type="checkbox" value="exercise">운동</label>
-                    <label><input type="checkbox" value="cook">요리</label>
-                    <label><input type="checkbox" value="travel">여행</label>
-                    <label><input type="checkbox" value="game">게임</label>
-                    <label><input type="checkbox" value="computer">컴퓨터</label>
-                    <label><input type="checkbox" value="music">음악</label>
-                    <label><input type="checkbox" value="movie">영화</label>
-                    <label><input type="checkbox" value="book">독서</label>
+                    <p class="hobby">취미</p> <br/>
+                    <label class="exercise"><input type="checkbox" value="exercise">운동</label>
+                    <label class="cook"><input type="checkbox" value="cook">요리</label>
+                    <label class="travel"><input type="checkbox" value="travel">여행</label>
+                    <label class="game"><input type="checkbox" value="game">게임</label>
+                    <label class="computer"><input type="checkbox" value="computer">컴퓨터</label>
+                    <label class="music"><input type="checkbox" value="music">음악</label>
+                    <label class="movie"><input type="checkbox" value="movie">영화</label>
+                    <label class="book"><input type="checkbox" value="book">독서</label>
                   </li>
                   <li>
-                    <label for="message">가입인사</label>
-                    <textarea id="message" cols="40" rows="4"></textarea>
+                    <label for="message">가입인사</label> <br/>
+                    <textarea class="join_message" id="message" cols="40" rows="4"></textarea>
                   </li>
                 </ul>
-                <button type="submit">가입하기</button>
+                <button class="sign_up_button"type="submit">가입하기</button>
               </form>
             </td>
           </tr>
