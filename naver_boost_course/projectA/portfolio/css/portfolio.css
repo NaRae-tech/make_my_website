@@ -12,6 +12,7 @@ footer, header, nav,section{
 	border: 0;
 	font-size: 100%;
 	font: inherit;
+  font-family:'나눔 고딕', NanumGothic, '돋움', Dotum, sans-serif;
 	vertical-align: baseline;
   text-align : left;
 }
@@ -20,6 +21,7 @@ footer, header, nav, section {
 	display: block;
 }
 header{
+  width : 1080px;
   background-color: #000;
 }
 body {
@@ -38,13 +40,16 @@ table {
 }
 a{
   text-decoration: none;
-  color : #000;
-  display:inline-block;
 }
 
 /*header 설정*/
+@media (min-width:1080px){
+  header{
+    background-color: #000;
+    width:auto;
+  }
+}
 .header_title{
-  font-family:'나눔 고딕', NanumGothic, '돋움', Dotum, sans-serif;
   font-size:40px;
   font-weight : bold;
   color : #fff;
@@ -56,16 +61,18 @@ a{
 
 /*nav 설정*/
 .navigation{
-  font-family:'나눔 고딕', NanumGothic, '돋움', Dotum, sans-serif;
   height : 33px;
   width : 1000px;
   padding : 40px 40px 40px 40px;
   margin : 0px auto;
 }
+.navigation a{
+  color:#000;
+  display:block;
+  text-align:center;
+}
 .nav_table, .nav_form, .nav_list{
   font-size:16px;
-  color : #000;
-  text-align:center;
   width : 322px;
   height : 27px;
   padding : 6px 0px 0px 0px;
@@ -87,7 +94,6 @@ li:hover{
   margin : 0px auto;  
 }
 .main_title{
-  font-family:'나눔 고딕', NanumGothic, '돋움', Dotum, sans-serif;
   font-size:20px;
   font-weight : bold;
   color:#000;
@@ -97,7 +103,6 @@ li:hover{
 
 /*table 설정*/
 .table_table, .form_table, .list_table{
-  font-family:'나눔 고딕', NanumGothic, '돋움', Dotum, sans-serif;
   width : 1000px;
   margin : 30px 0px 30px 0px;
   border : 1px solid #d1d1d1;
@@ -122,7 +127,6 @@ li:hover{
 
 /*footer 설정*/
 .footer_part{
-  font-family:'나눔 고딕', NanumGothic, '돋움', Dotum, sans-serif;
   font-size : 12px;
   padding : 40px 0px;
   border-top : 1px solid #d1d1d1;
@@ -131,6 +135,9 @@ li:hover{
   text-align: center;
   color : #999;
   padding : 0px 0px 10px 0px;
+}
+.address_email a{
+  color : #999;
 }
 .copyright{
   text-align: center;
