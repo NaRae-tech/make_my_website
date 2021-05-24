@@ -29,10 +29,15 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+a{
+  text-decoration:none;
+}
 /*header 설정*/
-.header_part{
-  background-color : #000;
+@media all and (min-width:1080px){
+  header{
+    width : auto;
+    background-color : #000;
+  }
 }
 .head_title{
   width : 1000px;
@@ -42,12 +47,19 @@ table {
   font-weight : bold;
   color : #fff;
   margin : 0px auto; 
+  background-color:#000;
 }
 /*nav 설정*/
 .nav_part{
+  height : 33px;
   width :1000px;
   padding : 40px 40px;
   margin : 0px auto;
+}
+.nav_part a{
+  text-align : center;
+  color : #000;
+  display:block;
 }
 .nav_table, .nav_form, .nav_list{
   float : left;
@@ -64,28 +76,24 @@ table {
   margin : 0px 0px 0px 0px;
 }
 .nav_part li:hover{
-  color:#454545;
-  font-weight: bold;
-}
-.nav_table a, .nav_form a, .nav_list a{
-  text-decoration:none;
-  color : #000;
-  display:inline-block;
+  font-weight : bold;
+  border: 1px solid #454545;
 }
 
 /*main 설정*/
 .main_part{
   width : 1000px;
-  padding : 40px 40px;
+  padding : 0px 40px 40px 40px;
   margin : 0px auto;
 }
 .main_title{
   font-size:20px;
   font-weight :bold;
   color :#000;
-  padding : 30px 0px;
+  padding : 0px 0px 20px 0px;
   border-bottom : 1px solid #454545;
 }
+
 /*테이블 요소 설정*/
 .table_table, .form_table, .list_table{
   width : 1000px;
@@ -93,7 +101,7 @@ table {
   border: 1px solid #d1d1d1;
 }
 .list_table{
-  margin : 0px 0px 0px 0px;
+  margin : 30px 0px 0px 0px;
 }
 .table_table th, .form_table th, .list_table th{
   font-size:16px;
@@ -110,10 +118,9 @@ table {
   color : #000;
   padding : 30px;
 }
-.size_table{
+/*테이블 요소 세부 내용 설정*/
 
-}
-/*폼요소 설정*/
+/*폼요소 세부 내용 설정*/
 .membership_form_title{
   font-size:14px;
   font-weight :bold;
@@ -194,7 +201,7 @@ table {
 .sign_up_button:hover{
   cursor:pointer;
 }
-/*리스트 요소 설정*/
+/*리스트 요소 세부 내용 설정*/
 .dictionary_title, .trending_topic_title, .cookie_info_title,.news_title, .webtoon_title{
   font-size:14px;
   font-weight:bold;
@@ -260,7 +267,7 @@ table {
 
 /*footer 설정*/
 .footer_part{
-  padding : 20px 0px 0px 0px;
+  padding : 20px 0px;
   border-top : 1px solid #d1d1d1;
 }
 .address_email{
