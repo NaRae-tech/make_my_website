@@ -119,7 +119,50 @@ a{
   padding : 30px;
 }
 /*테이블 요소 세부 내용 설정*/
-
+.size_table caption, .refund_table caption{
+  font-size:14px;
+  color : #000;
+  font-weight : bold;
+  text-align : left;
+  padding : 0px 0px 20px 0px;
+}
+.size_table{
+  font-size: 12px;
+  color:#555;
+  text-align : center;
+  border : 1px solid #e4e4e4;
+  background-color : #fbfbfb;
+  width : 100%;
+}
+.size_table th{
+  font:inherit;
+  font-weight:bold;
+}
+.boys_section, .girls_section{
+  font-weight:bold;
+}
+.refund_table{
+  font-size : 12px;
+  color : #555;
+  text-align : center;
+  width : 100%;
+}
+.refund_table th{
+  font-size : 12px;
+  color : #555;
+  text-align : center;
+  background-color:#fbfbfb;
+  border-top:2px solid #a5a5a5;
+  border-bottom:1px solid #e4e4e4;
+}
+.refund_table tfoot{
+  font-size : 12px;
+  color : #555;
+  text-align : center;
+  font-weight : bold;
+  border-top:1px solid #a5a5a5;
+  border-bottom:1px solid #e4e4e4; 
+}
 /*폼요소 세부 내용 설정*/
 .membership_form_title{
   font-size:14px;
