@@ -127,25 +127,44 @@ a{
   padding : 0px 0px 20px 0px;
 }
 .size_table{
+  margin : 0px 0px 30px 0px;
+  border : 1px solid #e4e4e4;
+  width : 100%;
+  display:table;
+  table-layout: fixed;
+  word-break:keep-all;
+}
+.size_table th{
+  background-color : #fbfbfb;
+  font-weight:bold;
   font-size: 12px;
   color:#555;
   text-align : center;
   border : 1px solid #e4e4e4;
-  background-color : #fbfbfb;
-  width : 100%;
 }
-.size_table th{
-  font:inherit;
-  font-weight:bold;
+.size_table td{
+  font-size: 12px;
+  color:#555;
+  text-align : center;
+  display:table-cell;
+  padding: 10px 0px;
+  border : 1px solid #e4e4e4;
 }
-.boys_section, .girls_section{
-  font-weight:bold;
+.boys, .girls{
+  font-weight : bold;
+  vertical-align: middle;
+}
+.div_size, .div_weight, .div_height{
+  font-weight: bold;
 }
 .refund_table{
   font-size : 12px;
   color : #555;
   text-align : center;
   width : 100%;
+  display:table;
+  table-layout: fixed;
+  word-break:keep-all;
 }
 .refund_table th{
   font-size : 12px;
@@ -154,6 +173,17 @@ a{
   background-color:#fbfbfb;
   border-top:2px solid #a5a5a5;
   border-bottom:1px solid #e4e4e4;
+  border-left:none;
+  border-right:none;
+  padding : 10px 0px 0px 0px;
+}
+.refund_table td{
+  padding : 10px 0px;
+  display:table-cell;
+}
+.cost{
+  text-align:center;
+  /*글자끝을 오른쪽 정렬로 맞춰야함*/
 }
 .refund_table tfoot{
   font-size : 12px;
@@ -162,6 +192,7 @@ a{
   font-weight : bold;
   border-top:1px solid #a5a5a5;
   border-bottom:1px solid #e4e4e4; 
+  padding : 10px 0px;
 }
 /*폼요소 세부 내용 설정*/
 .membership_form_title{
