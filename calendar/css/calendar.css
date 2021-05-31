@@ -1,0 +1,37 @@
+a{
+  text-decoration: none;
+  color : #000;
+}
+/*header*/
+.header_title{
+  font-size:40px;
+  padding : 40px;
+}
+/*nav*/
+.navigation_part li{
+  float:left;
+  display:block;
+}
+.account_book, .to_do_list, .scheduler{
+  width : 100px;
+  padding : 20px 10px;
+  border : 1px solid #000;
+  margin : 20px;
+  font-size : 12px;
+  text-align:center;
+}
+.account_book:hover, .to_do_list:hover, .scheduler:hover{
+  font-weight:bold;
+}
+/*main*/
+.account_book_part, .to_do_list_part, .scheduler_part{
+  clear:both;
+  width : 1000px;
+  border : 1px solid #000;
+  margin : 20px;
+}
+/*footer*/
+.footer_part{
+  border-top: 1px solid #e1e1e1;
+  margin : 20px;
+}
