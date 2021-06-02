@@ -408,8 +408,15 @@ article{
 }
 .webtoon_content li{
   float:left;
-  line-height: 100%;
-  margin : 20px 20px 0px 0px;
+}
+.webtoon_first,.webtoon_fourth{
+  margin : 20px 20px 0px 20px ;
+}
+.webtoon_second,.webtoon_fifth{
+  margin: 20px 0px 0px 0px;
+}
+.webtoon_third, .webtoon_sixth{
+  margin:20px 21px 0px 20px;
 }
 .toon_title{
   font-weight:bold;
@@ -421,6 +428,7 @@ article{
   font-size: 10px;
   color : #fff;
   padding : 0px 5px;
+  margin : 0px 5px 0px 0px;
 }
 .smarttoon{
   border:1px solid #df4e28;
@@ -428,6 +436,7 @@ article{
   font-size:10px;
   color:#fff;
   padding : 0px 5px;
+  margin : 0px 5px 0px 0px;
 }
 
 /*footer 설정*/
