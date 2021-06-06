@@ -28,6 +28,17 @@
             <tr>
               <td>
                 <table class="size_table">
+                  <!--<colgroup>
+                    <col width:120px>
+                    <col width:80px>
+                    <col width:100px>
+                    <col width:100px>
+                    <col width:100px>
+                    <col width:100px>
+                    <col width:100px>
+                    <col width:100px>
+                    <col width:100px>
+                  </colgroup>-->
                   <caption>아동 사이즈</caption>
                   <thead>
                     <tr>
@@ -199,14 +210,22 @@
                     </li>
                     <li>
                       <p class="hobby">취미</p> <br/>
-                      <input type="checkbox" class ="exercise" value="exercise"/>운동
-                      <input type="checkbox" class="cook" value="cook">요리
-                      <input type="checkbox" class="travel" value="travel">여행
-                      <input type="checkbox" class="game" value="game">게임
-                      <input type="checkbox" class="computer" value="computer">컴퓨터
-                      <input type="checkbox" class="music" value="music">음악
-                      <input type="checkbox" class="movie" value="movie">영화
-                      <input type="checkbox" class="book" value="book">독서
+                      <input type="checkbox" id="exercise" value="exercise"/>
+                      <label for="exercise" class="exercise">운동</label>
+                      <input type="checkbox" id="cook" value="cook">
+                      <label for="cook" class="cook">요리</label>
+                      <input type="checkbox" id="travel" value="travel">
+                      <label for="travel" class="travel">여행</label>
+                      <input type="checkbox" id="game" value="game">
+                      <label for="game" class="game">게임</label>
+                      <input type="checkbox" id="computer" value="computer">
+                      <label for="computer" class="computer">컴퓨터</label>
+                      <input type="checkbox" id="music" value="music">
+                      <label for="music" class="music">음악</label>
+                      <input type="checkbox" id="movie" value="movie">
+                      <label for="movie" class="movie">영화</label>
+                      <input type="checkbox" id="book" value="book">
+                      <label for="book" class="book">독서</label>
                     </li>
                     <li>
                       <label for="message">가입인사</label> <br/>
@@ -322,24 +341,20 @@
                   <h2 class="news_title">뉴스</h2>
                   <div class="news_content">
                     <article class="article_weather">
-                      <a>
-                        <img src="image/thumbnail1.jpg" alt="날씨 사진">
-                        <h2 class="article_title">[날씨] 내일도 35도 안팎 폭염・내륙 소나기⋯습도 높아 후텁지근</h2>
-                      </a>
+                      <a><img src="image/thumbnail1.jpg" alt="날씨 사진"></a>
+                      <a><h2 class="article_title">[날씨] 내일도 35도 안팎 폭염・내륙 소나기⋯습도 높아 후텁지근</h2></a>
                       <span class="article_content">오늘은 입추 절기지만 가을은 아직 멀리있는 것 같습니다. 일부 내륙에는 소나기가 지났지만 소나기도 더위의 기세를 누그러뜨리진 못했는데요. 동해안을 제외한
                         전국 대부분 지방에 폭염 특보가 이어지는 가운데 내일도 한낮에 서울과 대전 35도, 광주와 대구가 36도까지 오를 것으로 예상됩니다. 내일도 대기가 불안정해지
                         면서 오후에 내륙에는 소나기가 지나는 곳이 있겠습니다.</span>
                     </article>
                     <article class="article_pet">
-                      <a ><h2 class="article_title">[펫카드] 강아지 중성화가 필요한 이유</h2></a>
+                      <a><h2 class="article_title">[펫카드] 강아지 중성화가 필요한 이유</h2></a>
                       <span class="article_content">(서울=뉴스1) 최서윤 기자,방은영 디자이너 = 강아지 중성화 수술을 놓고 찬반이 팽팽하게 엇갈린다. 많은 사람들은 사람들과 공존하려면 개체수 조절을 위해 필요하다고 주장한
                         다. 그러나 어떤 사람들은 인위적인 수술은 안된다며 반대한다.</span>
                     </article>
                     <article  class="article_food">
-                      <a>
-                        <img src="image/thumbnail1.jpg" alt="복숭아사진">
-                        <h2 class="article_title">다이어트에 좋은 여름 복숭아, 먹으면 안 되는 사람 있어</h2>
-                      </a>
+                      <a><img src="image/thumbnail1.jpg" alt="복숭아사진"></a>
+                      <a><h2 class="article_title">다이어트에 좋은 여름 복숭아, 먹으면 안 되는 사람 있어</h2></a>
                       <span class="article_content">복숭아가 제철이다. 여름 복숭아는 다양한 건강 효과를 낸다. 복숭아에는 포도당, 과당, 수분이 풍부하고 유기산(산성을 띠는 물질로 식품에서 신맛을 냄)이 0.
                         5% 정도로 적게 들어 단맛이 강하다. 복숭아의 열량은 100g당 36kcal다. 복숭아 한 개에 약 100kcal 정도다. 포만감에 비해 열량이 적은 편이어서 다이어트를
                         하는 사람에게도 좋다. 비타민이 많아서 피로 해소에 도움이 된다.</span>
@@ -353,43 +368,55 @@
                       <li class="webtoon_first">
                         <a>
                           <img src="image/thumbnail2.jpg" alt="하루세컷 17화">
-                          <p class="toon_title">하루 3컷</p>
-                          <p>17화 편리하게 피곤하게</p>
+                          <div>
+                            <p class="toon_title">하루 3컷</p>
+                            <p>17화 편리하게 피곤하게</p>
+                          </div>
                         </a>
                       </li>
                       <li class="webtoon_second">
                         <a>
                           <img src="image/thumbnail2.jpg" alt="유미의 세포들 326화">
-                          <p class="toon_title"><span class="cuttoon">컷툰</span> 유미의 세포들</p>
-                          <p>326화 미래에서 온 텔레파시</p>
+                          <div>
+                            <p class="toon_title"><span class="cuttoon">컷툰</span> 유미의 세포들</p>
+                            <p>326화 미래에서 온 텔레파시</p>
+                          </div>
                         </a>
                       </li>
                       <li class="webtoon_third">
                         <a>
                           <img src="image/thumbnail2.jpg" alt="이말년씨리즈 2018 58화">
-                          <p class="toon_title">이말년씨리즈 2018</p>
-                          <p>58화 공포의 떡볶이</p>
+                          <div>
+                            <p class="toon_title">이말년씨리즈 2018</p>
+                            <p>58화 공포의 떡볶이</p>
+                          </div>
                         </a>
                       </li>
                       <li class="webtoon_fourth">
                         <a>
                           <img src="image/thumbnail2.jpg" alt="덴마 195화">
-                          <p class="toon_title"><span class="smarttoon">스마트툰</span>덴마</p>
-                          <p>195화 1.다이크(195)</p>
+                          <div>
+                            <p class="toon_title"><span class="smarttoon">스마트툰</span>덴마</p>
+                            <p>195화 1.다이크(195)</p>
+                          </div>
                         </a>
                       </li>
                       <li class="webtoon_fifth">
                         <a>
                           <img src="image/thumbnail2.jpg" alt="1인용 기분 20화">
-                          <p class="toon_title"><span class="cuttoon">컷툰</span>1인용 기분</p>
-                          <p>20화 평가</p>
+                          <div>
+                            <p class="toon_title"><span class="cuttoon">컷툰</span>1인용 기분</p>
+                            <p>20화 평가</p>
+                          </div>
                         </a>
                       </li>
                       <li class="webtoon_sixth">
                         <a>
                           <img src="image/thumbnail2.jpg" alt="찬란하지 않아도 괜찮아 56화"> 
-                          <p class="toon_title">찬란하지 않아도 괜찮아</p>
-                          <p>56화 숨길 수 없어요.</p>
+                          <div>
+                            <p class="toon_title">찬란하지 않아도 괜찮아</p>
+                            <p>56화 숨길 수 없어요.</p>
+                          </div>
                         </a>
                       </li>
                     </ul>
