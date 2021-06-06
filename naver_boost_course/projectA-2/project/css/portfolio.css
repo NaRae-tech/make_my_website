@@ -32,6 +32,7 @@ table {
 }
 a{
   text-decoration:none;
+  cursor:pointer;
 }
 article{
   clear:both;
@@ -188,9 +189,8 @@ article{
   display:table-cell;
 }
 .cost{
-  text-align:center;
-  text-align-last: right;
-  /*글자끝을 오른쪽 정렬로 맞춰야함*/
+  margin:0px 85px;
+  text-align:right;
 }
 .refund_table tfoot{
   font-size : 12px;
@@ -381,6 +381,9 @@ article{
 .cookie_info span{
   color:#ec5336;
 }
+.cookie_info div{
+  margin : 0px 0px 0px 15px;
+}
 /*리스트 - 뉴스 설정*/
 .news_content{
   border : 1px solid #e4e4e4;
@@ -412,7 +415,7 @@ article{
 .webtoon_content{
   border : 1px solid #e4e4e4;
   height: 420px;
-  margin : 10px 0px 40px 0px;
+  margin : 10px 0px 0px 0px;
 }
 .webtoon_content li{
   float:left;
