@@ -123,7 +123,7 @@ article{
   color : #000;
   padding : 30px;
 }
-/*테이블 요소 세부 내용 설정*/
+/*테이블 - 아동사이즈 테이블 설정*/
 .size_table caption, .refund_table caption{
   font-size:14px;
   color : #000;
@@ -162,6 +162,7 @@ article{
 .div_size, .div_weight, .div_height{
   font-weight: bold;
 }
+/*테이블 - 환불 가능 금액 조회 테이블 설정*/
 .refund_table{
   font-size : 12px;
   color : #555;
@@ -289,7 +290,7 @@ article{
   cursor:pointer;
 }
 /*리스트 요소 세부 내용 설정*/
-/*사전 내용 설정*/
+/*리스트 - 사전 내용 설정*/
 .dictionary_title, .trending_topic_title, .cookie_info_title,.news_title, .webtoon_title{
   font-size:14px;
   font-weight:bold;
@@ -324,7 +325,7 @@ article{
   color : #000;
   padding : 10px 0px 20px 0px;
 }
-/*실시간 검색어 설정*/
+/*리스트 - 실시간 검색어 설정*/
 .trending_topic_content{
   width : 200px;
   border : 1px solid #e4e4e4;
@@ -352,7 +353,7 @@ article{
 .cont:hover{
   text-decoration-line:underline;
 }
-/*쿠키 이용안내 설정*/
+/*리스트 - 쿠키 이용안내 설정*/
 .cookie_info_content{
   border : 1px solid #e4e4e4;
   padding : 20px;
@@ -380,7 +381,7 @@ article{
 .cookie_info span{
   color:#ec5336;
 }
-/*뉴스 설정*/
+/*리스트 - 뉴스 설정*/
 .news_content{
   border : 1px solid #e4e4e4;
   padding : 20px;
@@ -407,7 +408,7 @@ article{
   border-top : 1px solid #e4e4e4;
   border-bottom : 1px solid #e4e4e4;
 }
-/*웹툰 설정*/
+/*리스트 - 웹툰 설정*/
 .webtoon_content{
   border : 1px solid #e4e4e4;
   height: 420px;
@@ -444,7 +445,6 @@ article{
   padding : 0px 5px;
   margin : 0px 5px 0px 0px;
 }
-
 /*footer 설정*/
 .footer_part{
   padding : 20px 0px;
