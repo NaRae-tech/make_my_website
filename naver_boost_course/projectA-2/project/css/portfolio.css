@@ -13,6 +13,7 @@ article, details,footer, header,nav, section {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
+  font-family: '나눔 고딕', NanumGothic, '돋움', Dotum, sans-serif;
 	vertical-align: baseline;
   line-height : 150%;
 }
@@ -136,9 +137,6 @@ article{
   margin : 0px 0px 30px 0px;
   border : 1px solid #e4e4e4;
   width : 100%;
-  /*display:table;
-  table-layout: fixed;
-  word-break:keep-all;*/
 }
 .size_table th{
   background-color : #fbfbfb;
@@ -169,19 +167,15 @@ article{
   color : #555;
   text-align : center;
   width : 100%;
-  /*display:table;
-  table-layout: fixed;
-  word-break:keep-all;*/
 }
 .refund_table th{
   font-size : 12px;
   color : #555;
   text-align : center;
   background-color:#fbfbfb;
-  border-top:2px solid #a5a5a5;
   border-bottom:1px solid #e4e4e4;
-  border-left:none;
-  border-right:none;
+  border-top:2px solid #a5a5a5;
+  border-left:none; border-right:none;
   padding : 10px 0px 0px 0px;
 }
 .refund_table td{
@@ -189,7 +183,7 @@ article{
   display:table-cell;
 }
 .cost{
-  margin:0px 85px;
+  margin:0px 75px;
   text-align:right;
 }
 .refund_table tfoot{
@@ -392,7 +386,7 @@ article{
 }
 .news_content img{
   float:left;
-  padding : 0px 5px 0px 0px;
+  padding : 0px 10px 0px 0px;
 }
 .article_title{
   font-size:14px;
