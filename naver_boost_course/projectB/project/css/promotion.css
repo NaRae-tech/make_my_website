@@ -46,5 +46,98 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-/**/
+/*header*/
+.header_part{
+	height:66px;
+	background-color:rgb(64,64,64);
+	opacity:75%;
+	/*position:fixed;
+	top : 0px;*/
+}
+.header_part img{
+	padding : 22px 0px 22px 220px;
+}
+/*button*/
+.top_button{
+	position:fixed;
+	bottom:180px;
+	right:0px;
+	cursor: grab;
+}
+/*creator*/
+.creator{
+	height:822px;
+}
+@media all and (min-width:1920px){
+	.creator{
+		background-color:#f9939d;
+	}
+}
+/*store*/
+.store{
+	height:1084px;
+}
+@media all and (min-width:1920px){
+	.store{
+		background-color:#d5e43f;
+	}
+}
+/*recipe*/
+.recipe{
+	height:1030px;
+}
+@media all and (min-width:1920px){
+	.recipe{
+		background-color:#b893f9;
+	}
+}
+/*FAQ*/
+@media all and (min-width:1920px){
+	.FAQ{
+		background-color:#fff;
+	}
+}
+.FAQ_title{
+	margin : 40px 45%;
+}
+.question_box{
+	width:1000px;
+	margin: 0px auto;
+	border:1px solid #a1a5ad;
+	border-collapse:collapse;
+}
+.question_icon, .answer_icon{
+	margin : 0px 10px;
+}
+.question{
+	font-size:20px;
+	color : #1b1d21;
+	line-height:28px;
+	padding : 25px 20px;
+	vertical-align: center;
+}
+.answer{
+	padding : 20px 20px;
+	border: 1px solid #a1a5ad;
+	background-color:#f7f8fa;
+	font-size:16px;
+	color:#60656e;
+	line-height:28px;
+	border-collapse:collapse;
+	vertical-align: center;
+}
+/*footer*/
+.footer_part{
+	background-color: #e0e4eb;
+	height:80px;
+	margin : 100px 0px 0px 0px;
+}
+.copyright{
+	font-size:18px;
+	color:#70757d;
+	text-align: center;
+	padding: 30px 0px;
+}
+.company_name{
+	font-weight:bold;
+}
