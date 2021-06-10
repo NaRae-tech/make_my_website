@@ -21,6 +21,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
+	font-family:'나눔 고딕', NanumGothic, '돋움', Dotum, sans-serif;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -52,6 +53,22 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/*대체 텍스트 몰아서 설정*/
+.logo_alt, .main_banner_alt, .creator_alt, .store_alt, .recipe_alt{	
+	/*IR기법으로 대체텍스트 처리해야 함*/
+	position: absolute; /* position: absolute/fixed 에서만 clip 속성 작동 */
+	margin: -1px; /* 부트스트랩에선 안씀 */
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	border: 0;
+	white-space: nowrap;
+	overflow: hidden; /* overflow: visible 이면 clip 속성 작동 안됨 */
+	clip: rect(0, 0, 0, 0);
+	clip-path: inset(50%); /* H5BP에선 안씀 */
+	/*참고 : https://haneunbi.github.io/2020/06/01/css-ir/*/
+}
 /*header*/
 .header_part{
 	width:100%;
@@ -61,6 +78,7 @@ table {
 	position:fixed;
 	top : 0px;
 	left:0px;
+	/*z index 최상위로 설정해야함*/
 }
 .header_part img{
 	padding : 22px 0px 22px 220px;
@@ -76,7 +94,9 @@ table {
 .main_banner{
 	height:750px;
 	background-image:url('../image/section_invite.jpg');
-	background-size:100% 100%;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center
 }
 @media all and (min-width:1920px){
 	.main_banner{
@@ -88,7 +108,10 @@ table {
 .creator{
 	height:822px;
 	background-image:url('../image/section_creator.jpg');
-	background-size:100% 100%;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+
 }
 @media all and (min-width:1920px){
 	.creator{
@@ -100,7 +123,9 @@ table {
 .store{
 	height:1084px;
 	background-image:url('../image/section_store.jpg');
-	background-size:100% 100%;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
 }
 @media all and (min-width:1920px){
 	.store{
@@ -112,7 +137,8 @@ table {
 .recipe{
 	height:1030px;
 	background-image:url('../image/pattern_recipe.png');
-	background-size:100% auto;
+	background-repeat:repeat-x;
+	background-position: center;
 }
 @media all and (min-width:1920px){
 	.recipe{
