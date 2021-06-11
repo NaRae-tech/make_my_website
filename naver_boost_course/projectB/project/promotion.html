@@ -6,15 +6,15 @@
     <link rel="stylesheet" href="css/promotion.css">
   </head>
   <body>
-    <header id="header" class="header_part"> 
+    <header class="header_part"> 
       <a>
         <img src="image/logo.png" alt="logo">
         <span class="logo_alt">Food with</span>
       </a>
     </header>
     <main>
-      <a href="#header" class="top_button"><img src="image/go_top.gif" alt="top button"></a>
-      <section class="main_banner" >
+      <a href="#main" class="top_button"><img src="image/go_top.gif" alt="top button"></a>
+      <section id="main" class="main_banner" >
         <span class="main_banner_alt">
           Foodwidth에 여러분을 초대합니다! Foodwith가 정식 오픈하였습니다. 
           레시피뿐만 아니라 푸드 크리에이터, 푸드 비즈니스, 푸드 스토어 등 다양한 소식을 지금 확인해보세요.
@@ -37,44 +37,92 @@
         </span>
         <div class="store_items">
           <div class="apple">
-            <a><img src="image/thumbnail_apple.jpg" alt="꿀사과 8900원 00:00~03:00 30%할인" class="item_apple"></a>
-            <span class="item_name">꿀사과</span>
-            <span class="item_price">8900원</span>
+            <a><img src="image/thumbnail_apple.jpg" alt="꿀사과 8900원 00:00~03:00 30%할인" class="item_image"></a>
+            <div class="sales_info">
+              <p class="sales">30%</p>
+              <p class="time">00:00 ~ 03:00</p>
+            </div>
+            <div class="item_info">
+              <p class="item_name">꿀사과</p>
+              <p class="item_price">8900원</p>
+            </div>
           </div>
           <div class="onion">
-            <a><img src="image/thumbnail_onion.jpg" alt="친환경양파 04:00~06:00 60%할인" class="item_onion"></a>
-            <span class="item_name">친환경양파</span>
-            <span class="item_price">2900원</span>
+            <a><img src="image/thumbnail_onion.jpg" alt="친환경양파 04:00~06:00 60%할인" class="item_image"></a>
+            <div class="sales_info">
+              <p class="sales">30%</p>
+              <p class="time">00:00 ~ 03:00</p>
+            </div>
+            <div class="item_info">
+              <p class="item_name">친환경양파</p>
+              <p class="item_price">2900원</p>
+            </div>
           </div>
           <div class="banana">
-            <a><img src="image/thumbnail_banana.jpg" alt="제주 직송 유기농 바나나 07:00~09:00 20%할인" class="item_banana"></a>
-            <span class="item_name">제주 직송 유기농 바나나</span>
-            <span class="item_price">33900원</span>
+            <a><img src="image/thumbnail_banana.jpg" alt="제주 직송 유기농 바나나 07:00~09:00 20%할인" class="item_image"></a>
+            <div class="sales_info">
+              <p class="sales">30%</p>
+              <p class="time">00:00 ~ 03:00</p>
+            </div>
+            <div class="item_info">
+              <p class="item_name">제주 직송 유기농 바나나</p>
+              <p class="item_price">33900원</p>
+            </div>
           </div>
           <div class="kiwi">
-            <a><img src="image/thumbnail_kiwi.jpg" alt="국내산 키위 16900원 10:00~12:00 50%할인" class="item_kiwi"></a>
-            <span class="item_name">국내산 키위</span>
-            <span class="item_price">16900원</span>
+            <a><img src="image/thumbnail_kiwi.jpg" alt="국내산 키위 16900원 10:00~12:00 50%할인" class="item_image"></a>
+            <div class="sales_info">
+              <p class="sales">30%</p>
+              <p class="time">00:00 ~ 03:00</p>
+            </div>
+            <div class="item_info">
+              <p class="item_name">국내산 키위</p>
+              <p class="item_price">16900원</p>
+            </div>
           </div>
           <div class="broccoli">
-            <a><img src="image/thumbnail_broccoli.jpg" alt="유기농 브로콜리 2480원 13:00~15:00 60%할인" class="item_broccoli"></a>
-            <span class="item_name">유기농 브로콜리</span>
-            <span class="item_price">2480원</span>
+            <a><img src="image/thumbnail_broccoli.jpg" alt="유기농 브로콜리 2480원 13:00~15:00 60%할인" class="item_image"></a>
+            <div class="sales_info">
+              <p class="sales">30%</p>
+              <p class="time">00:00 ~ 03:00</p>
+            </div>
+            <div class="item_info">
+              <p class="item_name">유기농 브로콜리</p>
+              <p class="item_price">2480원</p>
+            </div>
           </div>
           <div class="lemon">
-            <a><img src="image/thumbnail_lemon.jpg" alt="본사 직영 레몬 14900원 16:00~18:00 30%할인" class="item_lemon"></a>
-            <span class="item_name">본사 직영 레몬</span>
-            <span class="item_price">14900원</span>
+            <a><img src="image/thumbnail_lemon.jpg" alt="본사 직영 레몬 14900원 16:00~18:00 30%할인" class="item_image"></a>
+            <div class="sales_info">
+              <p class="sales">30%</p>
+              <p class="time">00:00 ~ 03:00</p>
+            </div>
+            <div class="item_info">
+              <p class="item_name">본사 직영 레몬</p>
+              <p class="item_price">14900원</p>
+            </div>
           </div>
           <div class="garlic">
-            <a><img src="image/thumbnail_garlic.jpg" alt="국내산 마늘 10900원 19:00~21:00 20%할인" class="item_garlic"></a>
-            <span class="item_name">국내산 마늘</span>
-            <span class="item_price">10900원</span>
+            <a><img src="image/thumbnail_garlic.jpg" alt="국내산 마늘 10900원 19:00~21:00 20%할인" class="item_image"></a>
+            <div class="sales_info">
+              <p class="sales">30%</p>
+              <p class="time">00:00 ~ 03:00</p>
+            </div>
+            <div class="item_info">
+              <p class="item_name">국내산 마늘</p>
+              <p class="item_price">10900원</p>
+            </div>
           </div>
           <div class="tomato">
-            <a><img src="image/thumbnail_tomato.jpg" alt="정품 완숙 토마토 19900원 22:00~24:00 50%할인" class="item_tomato"></a>
-            <span class="item_name">정품 완숙 토마토</span>
-            <span class="item_price">19900원</span>
+            <a><img src="image/thumbnail_tomato.jpg" alt="정품 완숙 토마토 19900원 22:00~24:00 50%할인" class="item_image"></a>
+            <div class="slaes_info">
+              <p class="sales">30%</p>
+              <p class="time">00:00 ~ 03:00</p>
+            </div>
+            <div class="item_info">
+              <p class="item_name">정품 완숙 토마토</p>
+              <p class="item_price">19900원</p>
+            </div>
           </div>
         </div>
       </section>
@@ -87,7 +135,7 @@
             당신도 셰프가 될 수 있어요
           </span>
         </a>
-        <a><img src="image/go_recipe.gif" class="go_recipe" alt="레시피 전체보기"></a>
+        <a><img src="image/go_recipe.gif" class="go_to_recipe" alt="레시피 전체보기"></a>
       </section>
       <section class="FAQ">
         <img src="image/title_faq.gif" alt="FAQ" class="FAQ_title">

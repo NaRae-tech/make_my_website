@@ -96,7 +96,7 @@ table {
 	background-image:url('../image/section_invite.jpg');
 	background-size:cover;
 	background-repeat:no-repeat;
-	background-position: center
+	background-position: center;
 }
 @media all and (min-width:1920px){
 	.main_banner{
@@ -111,7 +111,6 @@ table {
 	background-size:cover;
 	background-repeat:no-repeat;
 	background-position: center;
-
 }
 @media all and (min-width:1920px){
 	.creator{
@@ -145,6 +144,21 @@ table {
 		width:100%;
 		background-color:#b893f9;
 	}
+}
+.store_item{width:980px; height:740px;}
+.store_item li{float:left;}
+.item_image{width:230px; height:230px;}
+.item_image:hover{ background-color:rgb(96,132,2); opacity:90%;}
+.sales_info{width:230px; height:230px; }
+
+.item_image:hover .sales_info{z-index:2; color:#fff;}
+.item_image:hover .sales{font-size:65px; color:#fff; }
+.item_image:hover .time{font-size:20px; color:#fff; }
+.item_info{ width:230px; height:140px;}
+.item_name{font-size:20px; color:#1b1d21; text-align:center; padding:20px 0px 0px 0px;}
+.item_price{font-size:28px; font-weight:bold; color:#1b1d21; text-align:center; padding : 10px 0px 0px 0px;}
+.go_to_recipe:hover{
+	background-image:url('../image/go_recipe_over.gif');
 }
 /*FAQ*/
 @media all and (min-width:1920px){
