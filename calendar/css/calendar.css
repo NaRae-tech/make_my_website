@@ -30,6 +30,26 @@ a{
   border : 1px solid #000;
   margin : 20px;
 }
+.main_part table{
+  width:900px;
+  table-layout: fixed;
+  margin : 30px 40px;
+}
+.date_title{margin: 20px 30px;}
+.main_part table th, .to_do_list_part th, .scheduler_part th{
+  font-size:10px;
+  color:white;
+  background-color:#000;
+  height:30px;
+  vertical-align: middle;
+  text-align: center;
+}
+.main_part table td, .to_do_list_part td, .scheduler_part td{
+  font-size:8px;
+  height:60px;
+  border:1px solid #000;
+  border-collapse: collapse;
+}
 /*footer*/
 .footer_part{
   border-top: 1px solid #e1e1e1;
