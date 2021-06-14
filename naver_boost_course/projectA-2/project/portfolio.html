@@ -11,17 +11,17 @@
       </header>
       <nav class="nav_part"> 
         <ul>
-          <li class="nav_table"><a href="#table">테이블 요소</a></li>
-          <li class="nav_form"><a href="#form">폼 요소</a></li>
-          <li class="nav_list"><a href="#list">리스트 요소</a></li>
+          <li class="nav_table"><a href="#nav_table">테이블 요소</a></li>
+          <li class="nav_form"><a href="#nav_form">폼 요소</a></li>
+          <li class="nav_list"><a href="#nav_list">리스트 요소</a></li>
         </ul>
       </nav>
       <main class="main_part">
         <p class="main_title"> 구성요소</p>
-        <table class = "table_table" id="table">
+        <table class = "table_table" id="nav_table">
           <thead>
             <tr>
-              <th>테이블 요소</th>
+              <th class="table_content">테이블 요소</th>
             </tr>
           </thead>
           <tbody>
@@ -51,8 +51,8 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td rowspan="3" class="boys">미국남아<br>[Boys 2-7]</td>
-                      <td class="div_size">사이즈</td>
+                      <th rowspan="3" class="boys">미국남아<br>[Boys 2-7]</th>
+                      <th class="div_size">사이즈</th>
                       <td>2T</td>
                       <td>3T</td>
                       <td>4T</td>
@@ -62,7 +62,7 @@
                       <td>7</td>
                     </tr>
                     <tr>
-                      <td class ="div_height">키</td>
+                      <th class ="div_height">키</th>
                       <td>84-91</td>
                       <td>91-99</td>
                       <td>91-99</td>
@@ -72,7 +72,7 @@
                       <td>122-130</td>
                     </tr>
                     <tr>
-                      <td class="div_weight">몸무게</td>
+                      <th class="div_weight">몸무게</th>
                       <td>13-15</td>
                       <td>14-15</td>
                       <td>13-15</td>
@@ -82,8 +82,8 @@
                       <td>23-25</td>
                     </tr>
                     <tr> 
-                      <td rowspan="3" class="girls">미국여아<br>[Girls 2-6X]</td>
-                      <td class="div_size">사이즈</td>
+                      <th rowspan="3" class="girls">미국여아<br>[Girls 2-6X]</th>
+                      <th class="div_size">사이즈</th>
                       <td>2T</td>
                       <td>3T</td>
                       <td>4T</td>
@@ -93,7 +93,7 @@
                       <td>6X</td>
                     </tr>
                     <tr>
-                      <td class="div_height">키</td>
+                      <th class="div_height">키</th>
                       <td>84-91</td>
                       <td>91-99</td>
                       <td>91-99</td>
@@ -103,7 +103,7 @@
                       <td>122-130</td>
                     </tr>
                     <tr>
-                      <td class="div_weight">몸무게</td>
+                      <th class="div_weight">몸무게</th>
                       <td>13-15</td>
                       <td>14-15</td>
                       <td>13-15</td>
@@ -124,27 +124,27 @@
                   </colgroup>
                   <thead>
                     <tr>
-                      <th>구분</th>
-                      <th>환불가능액</th>
-                      <th>수수료</th>
-                      <th>총 환불금액</th>
+                      <th class="div_cost">구분</th>
+                      <th class="div_cost">환불가능액</th>
+                      <th class="div_cost">수수료</th>
+                      <th class="div_cost">총 환불금액</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>게임 보상금액</td>
+                      <th>게임 보상금액</th>
                       <td><div class="cost"> 100,000원</div></td>
                       <td><div class="cost">1,000원</div></td>
                       <td><div class="cost">99,000원</div></td>
                     </tr>
                     <tr>
-                      <td>월정액계 보상금액</td>
+                      <th>월정액계 보상금액</th>
                       <td><div class="cost"> 10,000원</div></td>
                       <td><div class="cost"> 5,000원</div></td>
                       <td><div class="cost"> 5,000원</div></td>
                     </tr>
                     <tr>
-                      <td>코인</td>
+                      <th>코인</th>
                       <td><div class="cost"> 9,000원</div></td>
                       <td><div class="cost"> 5,000원</div></td>
                       <td><div class="cost"> 8,500원</div></td>
@@ -152,7 +152,7 @@
                   </tbody>
                   <tfoot>
                     <tr>
-                      <td>총합계</td>
+                      <th>총합계</th>
                       <td><div class="cost"> 119,000원</div></td>
                       <td><div class="cost"> 6,500원</div></td>
                       <td><div class="cost"> 112,500원</div></td>
@@ -163,10 +163,10 @@
             </tr>
           </tbody>
         </table>
-        <table class = "form_table" id="form">
+        <table class = "form_table" id="nav_form">
           <thead>
             <tr>
-              <th>폼 요소</th>
+              <th class="form_content">폼 요소</th>
             </tr>
           </thead>
           <tbody>
@@ -181,7 +181,7 @@
                     </li>
                     <li>
                       <label for="user-pwd">비밀번호</label> <br/>
-                      <input type="text" id="user-pwd" class="pwd">
+                      <input type="password" id="user-pwd" class="pwd">
                     </li>
                     <li>
                       <label for="user-name">이름</label> <br/>
@@ -211,8 +211,8 @@
                     <li>
                       <label for="user-phone">휴대전화</label> <br/>
                       <input type="tel" id="user-phone" class="phone_number" placeholder="숫자만 입력해주세요.">
-                      <button type="submit" class="vertification_button">인증번호 받기</button>
-                      <input type="text" class="vertification_number" placeholder="인증번호를 입력해주세요.">
+                      <button type="button" class="vertification_button">인증번호 받기</button>
+                      <input type="number" class="vertification_number" placeholder="인증번호를 입력해주세요.">
                     </li>
                     <li>
                       <p class="hobby">취미</p> <br/>
@@ -244,10 +244,10 @@
             </tr>
           </tbody>
         </table>
-        <table class = "list_table" id="list">
+        <table class = "list_table" id="nav_list">
           <thead>
             <tr>
-              <th>리스트 요소</th>
+              <th class="list_content">리스트 요소</th>
             </tr>
           </thead>
           <tbody>
@@ -267,68 +267,58 @@
                 <section class="trending_topic"> 
                   <h2 class="trending_topic_title">실시간 검색어</h2>
                   <div class="trending_topic_content">
-                    <ul>
+                    <ol>                      
                       <li>
                         <a>
-                          <span class="num">1</span>
                           <span class="cont">입추</span>
                         </a>
                       </li>
                       <li>
                         <a>
-                          <span class="num">2</span>
                           <span class="cont">런닝맨 유재석</span>
                         </a>
                       </li>
                       <li>
                         <a>
-                          <span class="num">3</span>
                           <span class="cont">런닝맨</span>
                         </a>
                       </li>
                       <li>
                         <a>
-                          <span class="num">4</span>
                           <span class="cont">소나기</span>
                         </a>
                       </li>
                       <li>
                         <a>
-                          <span class="num">5</span>
                           <span class="cont">주간날씨</span>
                         </a>
                       </li>
                       <li>
                         <a>
-                          <span class="num">6</span>
                           <span class="cont">깔라만시</span>
                         </a>
                       </li>
                       <li>
                         <a>
-                          <span class="num">7</span>
                           <span class="cont">내 아이디는 강남미인</span>
                         </a>
                       </li>
                       <li>
                         <a>
-                          <span class="num">8</span>
                           <span class="cont">차은우</span>
                         </a>
                       </li>
                       <li>
                         <a>
-                          <span class="num">9</span>
                           <span class="cont">한국사능력시험</span>
                         </a>
                       </li>
                       <li>
                         <a>
-                          <span class="num">10</span>
                           <span class="cont">맛있는 녀석들</span>
                         </a>
                       </li>
-                    </ul>
+                    </ol>
                   </div>
                 </section>
                 <section class="cookie_info"> 

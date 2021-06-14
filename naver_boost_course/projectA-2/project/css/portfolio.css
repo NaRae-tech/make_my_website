@@ -49,11 +49,11 @@ article{
 .head_title{
   width : 1000px;
   height : 80px;
-  padding : 40px 40px 0px 40px;
+  padding : 40px;
   font-size:40px;
   font-weight : bold;
   color : #fff;
-  margin : 0px auto; 
+  margin : 0 auto; 
   background-color:#000;
 }
 /*nav 설정*/
@@ -61,7 +61,7 @@ article{
   height : 33px;
   width :1000px;
   padding : 40px 40px;
-  margin : 0px auto;
+  margin : 0 auto;
 }
 .nav_part a{
   text-align : center;
@@ -75,49 +75,44 @@ article{
   font-size : 16px;
   color : #000;
   text-align : center;
-  padding : 8px 0px 0px 0px;
+  padding-top : 8px;
   border : 1px solid #d1d1d1;
-  margin : 0px 14px 0px 0px;
+  margin-right : 14px;
 }
-.nav_list{
-  margin : 0px 0px 0px 0px;
-}
+.nav_list{margin : 0;}
 .nav_part li:hover{
   font-weight : bold;
   border: 1px solid #454545;
 }
-
 /*main 설정*/
 .main_part{
   width : 1000px;
-  padding : 0px 40px 40px 40px;
-  margin : 0px auto;
+  padding :40px; padding-top:0;
+  margin : 0 auto;
 }
 .main_title{
   font-size:20px;
   font-weight :bold;
   color :#000;
-  padding : 0px 0px 20px 0px;
+  padding-bottom :20px;
   border-bottom : 1px solid #454545;
 }
 
 /*테이블 요소 설정*/
 .table_table, .form_table, .list_table{
   width : 1000px;
-  margin : 30px 0px;
+  margin : 30px 0;
   border: 1px solid #d1d1d1;
 }
-.list_table{
-  margin : 30px 0px 0px 0px;
-}
-.table_table th, .form_table th, .list_table th{
+.list_table{ margin-top : 30px;}
+.table_content, .form_content, .list_content{
   font-size:16px;
   color : #333;
   font-weight : bold;
   background-color : #f7f7f7;
   border : 1px solid #d1d1d1;
-  padding : 10px 0px 0px 15px;
-  height : 23px;
+  padding-top : 8px; padding-left:15px;
+  height : 25px;
   text-align : left;
 }
 .table_table td , .form_table td, .list_table td{
@@ -131,35 +126,30 @@ article{
   color : #000;
   font-weight : bold;
   text-align : left;
-  padding : 0px 0px 20px 0px;
+  padding-bottom : 20px;
 }
 .size_table{
-  margin : 0px 0px 30px 0px;
+  margin-bottom : 30px;
   border : 1px solid #e4e4e4;
   width : 100%;
 }
 .size_table th{
-  background-color : #fbfbfb;
   font-weight:bold;
   font-size: 12px;
   color:#555;
   text-align : center;
+  vertical-align: middle;
   border : 1px solid #e4e4e4;
+  background-color : #fbfbfb;
+  padding:10px 0;
 }
 .size_table td{
   font-size: 12px;
   color:#555;
   text-align : center;
   display:table-cell;
-  padding: 10px 0px;
+  padding:10px 0;
   border : 1px solid #e4e4e4;
-}
-.boys, .girls{
-  font-weight : bold;
-  vertical-align: middle;
-}
-.div_size, .div_weight, .div_height{
-  font-weight: bold;
 }
 /*테이블 - 환불 가능 금액 조회 테이블 설정*/
 .refund_table{
@@ -170,20 +160,24 @@ article{
 }
 .refund_table th{
   font-size : 12px;
+  font-weight:normal;
   color : #555;
   text-align : center;
-  background-color:#fbfbfb;
+  vertical-align: middle;
+  padding:10px 0;
+}
+.div_cost{
   border-bottom:1px solid #e4e4e4;
   border-top:2px solid #a5a5a5;
   border-left:none; border-right:none;
-  padding : 10px 0px 0px 0px;
+  background-color:#fbfbfb;
 }
 .refund_table td{
-  padding : 10px 0px;
+  padding:10px 0;
   display:table-cell;
 }
 .cost{
-  margin:0px 75px;
+  margin:0 75px;
   text-align:right;
 }
 .refund_table tfoot{
@@ -193,85 +187,77 @@ article{
   font-weight : bold;
   border-top:1px solid #a5a5a5;
   border-bottom:1px solid #e4e4e4; 
-  padding : 10px 0px;
+  padding:10px 0;
 }
 /*폼요소 세부 내용 설정*/
 .membership_form_title{
   font-size:14px;
   font-weight :bold;
   color :#000;
-  padding : 0px 0px 20px 0px;
+  padding-bottom : 20px;
 }
 .membership_form{
   border : 1px solid #e4e4e4;
   background-color:#fbfbfb;
-  padding : 20px 20px;
+  padding : 20px;
 }
 .form_table td{
   font-size:14px;
   color : #000;
   font-weight:bold;
 }
-.form_table li{
-  padding : 10px 0px 20px 0px;
-}
-.form_table li:first-child{
-  padding : 0px 0px 20px 0px;
-}
+.form_table li{padding-top : 10px; padding-bottom: 20px;}
+.form_table li:first-child{padding-bottom : 20px;}
 .id, .pwd, .name{
   width : 880px;
   font-size: 12px;
   color : #000;
   padding : 5px 5px;
-  margin : 10px 0px 0px 0px;
+  margin-top : 10px;
 }
 .year, .month, .day{
   font-size:12px;
   color : #000;
   padding : 5px 5px;
-  margin: 10px 5px 0px 0px;
-  width : 290px; 
+  margin-top: 10px; margin-right:5px;
+  width : 285px; 
 }
-.day{
-  margin: 10px 0px 0px 0px;
-}
+.day{margin-top: 10px;}
 .man, .woman{
   font-weight:normal;
-  margin : 0px 60px 0px 0px;
+  margin-right:60px;
 }
 .email,.vertification_number{
   width : 880px;
   padding : 5px 5px;
-  margin : 10px 0px 0px 0px;
+  margin-top : 10px;
 }
 .phone_number{
   width : 760px;
   padding : 5px 5px;
-  margin : 10px 10px 0px 0px;
+  margin-top : 10px; margin-right: 10px;
 }
 .vertification_button{
   width : 100px;
-  padding : 5px 0px;
-  margin : 10px 0px 0px 0px;
+  padding : 5px 0;
+  margin-top : 10px;
   font-size : 12px;
   color : #fff;
   border : 1px solid #08a600;
   background-color : #4ec53d;
 }
-.vertification_button{
-  cursor:grab;
-}
+.vertification_button{cursor:grab;}
 .exercise{
-  margin : 0px 50px 10px 0px;
+  margin-right : 50px; margin-bottom: 10px;
   font-weight:normal;
 }
 .cook,.travel,.game,.computer,.music,.movie,.book{
-  margin : 0px 50px 10px 0px;
+  margin-right : 50px; margin-bottom: 10px;
   font-weight:normal;
 }
 .join_message{
   width : 880px;
-  margin : 10px 0px 10px 0px;
+  margin : 10px 0;
 }
 .sign_up_button{
   width: 880px;
@@ -280,9 +266,7 @@ article{
   font-size:16px;
   color:#fff;
 }
-.sign_up_button:hover{
-  cursor:grab;
-}
+.sign_up_button:hover{cursor:grab;}
 /*리스트 요소 세부 내용 설정*/
 /*리스트 - 사전 내용 설정*/
 .dictionary_title, .trending_topic_title, .cookie_info_title,.news_title, .webtoon_title{
@@ -292,14 +276,12 @@ article{
 }
 .dictionary_content{
   border : 1px solid #e4e4e4;
-  margin : 10px 0px 40px 0px;
+  margin : 10px 0 40px 0;
 }
-.dictionary_content{
-  padding : 40px 10px;
-}
+.dictionary_content{padding : 40px 10px;}
 .search_word{
   text-align:center;
-  padding : 0px 0px 20px 0px;
+  padding-bottom : 20px;
   font-size:32px;
   font-weight:bold;
   color:#000;
@@ -317,32 +299,25 @@ article{
 .dictionary_content dd{
   font-size:12px;
   color : #000;
-  padding : 10px 0px 20px 0px;
+  padding-top : 10px; padding-bottom: 20px;
 }
 /*리스트 - 실시간 검색어 설정*/
 .trending_topic_content{
   width : 200px;
   border : 1px solid #e4e4e4;
   padding : 20px;
-  margin : 10px 0px 40px 0px;
+  margin : 10px 0 40px 0;
 }
-.trending_topic_content li{
-  padding : 0px 0px 15px 0px;
-}
-.trending_topic_content li:last-child{
-  padding : 0px;
-}
-.num{
-  height: 17px;
-  width :17px;
-  border:1px solid #e0e0e0;
-  font-size :10px;
-  color:#666;
+.trending_topic_content li{padding-bottom : 15px;}
+.trending_topic_content li:last-child{padding : 0;}
+.trending_topic_content ol{
+  list-style:decimal;
+  text-indent: 5px;
 }
 .cont{
   font-size:12px;
   color:#000;
-  padding : 0px 0px 0px 5px;
+  padding-left : 5px;
 }
 .cont:hover{
   text-decoration-line:underline;
@@ -351,42 +326,29 @@ article{
 .cookie_info_content{
   border : 1px solid #e4e4e4;
   padding : 20px;
-  margin : 10px 0px 40px 0px;
+  margin : 10px 0 40px 0;
 }
 .cookie_info li{
   list-style:inside;
-  padding : 5px 0px;
+  padding : 5px 0;
   font-size:12px;
   color : #000;
 }
-.cookie_info li:first-child{
-  font-weight:bold;
-}
-.cookie_info li:first-child span{
-  color:#559bfa;
-}
-.cookie_info li:first-child a{
-  text-decoration:none;
-}
-.cookie_info a{
-  text-decoration:underline;
-  color:#559bfa;
-}
-.cookie_info span{
-  color:#ec5336;
-}
-.cookie_info div{
-  margin : 0px 0px 0px 15px;
-}
+.cookie_info li:first-child{font-weight:bold;}
+.cookie_info li:first-child span{color:#559bfa;}
+.cookie_info li:first-child a{text-decoration:none;}
+.cookie_info a{text-decoration:underline; color:#559bfa;}
+.cookie_info span{color:#ec5336;}
+.cookie_info div{margin-left :15px;}
 /*리스트 - 뉴스 설정*/
 .news_content{
   border : 1px solid #e4e4e4;
   padding : 20px;
-  margin : 10px 0px 40px 0px;
+  margin : 10px 0 40px 0;
 }
 .news_content img{
   float:left;
-  padding : 0px 10px 0px 0px;
+  padding-right : 10px;
 }
 .article_title{
   font-size:14px;
@@ -399,7 +361,7 @@ article{
   color:#000;
 }
 .article_weather, .article_pet, .article_food{
-  padding : 20px 0px; 
+  padding : 20px 0; 
 }
 .article_pet{
   border-top : 1px solid #e4e4e4;
@@ -409,45 +371,40 @@ article{
 .webtoon_content{
   border : 1px solid #e4e4e4;
   height: 420px;
-  margin : 10px 0px 0px 0px;
+  margin-top : 10px;
 }
-.webtoon_content li{
-  float:left;
-}
-.webtoon_content div:hover{
-  text-decoration:underline;
-}
+.webtoon_content li{float:left;}
+.webtoon_content div:hover{text-decoration:underline;}
+/* 수도클래스로 작성할것
 .webtoon_first,.webtoon_fourth{
-  margin : 20px 20px 0px 20px ;
+  margin : 20 20 0 20 ;
 }
 .webtoon_second,.webtoon_fifth{
-  margin: 20px 0px 0px 0px;
+  margin: 20 0 0 0;
 }
 .webtoon_third, .webtoon_sixth{
-  margin:20px 21px 0px 20px;
-}
-.toon_title{
-  font-weight:bold;
-}
+  margin:20 21px 0 20;
+}*/
+.toon_title{font-weight:bold;}
 .cuttoon{
   border : 1px solid #71b036;
   background-color:#80c83d;
   font-size: 10px;
   color : #fff;
-  padding : 0px 5px;
-  margin : 0px 5px 0px 0px;
+  padding : 0 5px;
+  margin-right : 5px;
 }
 .smarttoon{
   border:1px solid #df4e28;
   background-color:#ec5336;
   font-size:10px;
-  color:#fff;
-  padding : 0px 5px;
-  margin : 0px 5px 0px 0px;
+  color:#fff; 
+  padding : 0 5px;
+  margin-right : 5px;
 }
 /*footer 설정*/
 .footer_part{
-  padding : 20px 0px;
+  padding : 20px 0;
   border-top : 1px solid #d1d1d1;
 }
 .address_email{
@@ -459,5 +416,5 @@ article{
   font-size:12px;
   color : #000;
   text-align : center;
-  padding:10px 0px 0px 0px;
+  padding-top:10px;
 }
