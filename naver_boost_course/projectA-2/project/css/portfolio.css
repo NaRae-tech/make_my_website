@@ -79,9 +79,9 @@ article{
   height : 25px;
   text-align : left;
 }
-.table_table td , .form_table td, .list_table td{font-size:12px; color : #000; padding : 30px;}
+.table_table td , .form_table td, .list_table td{font-size:12px; color:#000; padding:30px;}
 /*테이블 - 아동사이즈 테이블 설정*/
-.size_table caption, .refund_table caption{font-size:14px; color : #000; font-weight : bold; text-align : left; padding-bottom : 20px;}
+.size_table caption, .refund_table caption{font-size:14px; color:#000; font-weight:bold; text-align:left; padding-bottom:20px;}
 .size_table{width : 100%; border : 1px solid #e4e4e4; margin-bottom : 30px;}
 .size_table th{
   font-weight:bold;
@@ -102,7 +102,7 @@ article{
   border : 1px solid #e4e4e4;
 }
 /*테이블 - 환불 가능 금액 조회 테이블 설정*/
-.refund_table{font-size : 12px; color : #555; text-align : center; width : 100%;}
+.refund_table{font-size:12px; color:#555; text-align:center; width:100%;}
 .refund_table th{
   font-size : 12px;
   font-weight:normal;
@@ -157,9 +157,11 @@ article{
   counter-increment: myCounter;
   content: counter(myCounter);
   font-size:10px; color:#666;
+  text-align:center; vertical-align: middle;
   height: 17px; width:17px;
   border:1px solid #e0e0e0;
   margin-right:5px;
+  display:inline-block;
 }
 .cont{font-size:12px; color:#000; padding-left : 5px;}
 .cont:hover{text-decoration-line:underline;}
@@ -174,13 +176,14 @@ article{
 .cookie_info div{margin-left :15px;}
 /*리스트 - 뉴스 설정*/
 .news_content{padding : 20px; border : 1px solid #e4e4e4; margin : 10px 0 40px 0;}
-.news_content img{float:left; padding-right : 10px;}
+.news_content img{ width:88px; height:88x; object-fit:cover; float:left; padding-right : 10px;}
 .article_title{font-size:14px; font-weight:bold; color:#00c; text-decoration-line: underline;}
 .article_content{font-size:12px; color:#000;}
 .article_weather, .article_pet, .article_food{padding : 20px 0;}
 .article_pet{border-top : 1px solid #e4e4e4; border-bottom : 1px solid #e4e4e4;}
 /*리스트 - 웹툰 설정*/
 .webtoon_content{height: 440px; border : 1px solid #e4e4e4; margin-top : 10px;}
+.webtoon_content img{width:285px; height:140px; object-fit:cover;}
 .webtoon_content li{float:left; margin-left:20px; margin-top:20px; margin-right:0px;}
 .webtoon_content li:nth-child(3), .webtoon_content li:nth-child(6){margin-right:21px;}
 .webtoon_content div:hover{text-decoration:underline;}
