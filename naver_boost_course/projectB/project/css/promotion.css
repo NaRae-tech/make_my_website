@@ -54,6 +54,10 @@ table {
 	margin:-1px;
 	overflow:hidden;
 }
+a{
+	text-decoration:none;
+	cursor:grab;
+}
 /*header*/
 .header_part{
 	height:66px;
@@ -110,66 +114,108 @@ table {
 	background:url('../image/section_store.jpg') no-repeat 0 0;
 	margin:0 auto;
 }
+.item_list{
+	width: 980px;
+	height:740px;
+	padding-top:280px;
+	margin: 0 auto;
+}
 .store_content li{
-	float: left;
+	float:left;
+	margin-right:20px;
+}
+.store_content li:nth-child(4), .store_content li:nth-child(8){
+	margin-right:0px;
 }
 .apple_img{
 	width:230px;
-	height:230px;
+	height:230px;	
+	border-radius: 10px;
 	background:url('../image/thumbnail_apple.jpg') no-repeat 0 0;
 }
 .onion_img{
 	width:230px;
 	height:230px;
+	border-radius: 10px;
 	background:url('../image/thumbnail_onion.jpg') no-repeat 0 0;
 }
 .banana_img{
 	width:230px;
 	height:230px;
+	border-radius: 10px;
 	background:url('../image/thumbnail_banana.jpg') no-repeat 0 0;
 }
 .kiwi_img{
 	width:230px;
 	height:230px;
+	border-radius: 10px;
 	background:url('../image/thumbnail_kiwi.jpg') no-repeat 0 0;
 }
 .broccoli_img{
 	width:230px;
 	height:230px;
+	border-radius: 10px;
 	background:url('../image/thumbnail_broccoli.jpg') no-repeat 0 0;
 }
 .lemon_img{
 	width:230px;
 	height:230px;
+	border-radius: 10px;
 	background:url('../image/thumbnail_lemon.jpg') no-repeat 0 0;
 }
 .garlic_img{
 	width:230px;
 	height:230px;
+	border-radius: 10px;
 	background:url('../image/thumbnail_garlic.jpg') no-repeat 0 0;
 }
 .tomato_img{
 	width:230px;
 	height:230px;
+	border-radius: 10px;
 	background:url('../image/thumbnail_tomato.jpg') no-repeat 0 0;
-}
-.sales_info{
-	width:230px;
-	height:230px;
-	background-color:rgb(96,132,2);
-	opacity: 90%;
 }
 .sale_rate{
 	font-size:65px;
 	color:#fff;
 	text-align:center;
 	padding-top:70px;
+	opacity:0%;
 }
 .sale_time{
 	font-size:20px;
 	color:#fff;
 	text-align:center;
 	vertical-align: middle;
+	opacity:0%;
+}
+.item_img:hover .sales_info{
+	width:230px;
+	height:230px;
+	border-radius: 10px;
+	background-color:rgb(96,132,2);
+	opacity: 90%;
+}
+.item_img:hover .sale_rate, .item_img:hover .sale_time{
+	opacity:100%;
+}
+.item_info{
+	width:230px;
+	height:140px;
+	text-align:center;
+}
+.name{
+	font-size:20px;
+	color:#1b1d21;
+	padding:25px 10px 15px 10px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden; 
+}
+.price{
+	font-size:28px;
+	font-weight:bold;
+	color:#1b1d21;
 }
 /*recipe*/
 .recipe_content{
