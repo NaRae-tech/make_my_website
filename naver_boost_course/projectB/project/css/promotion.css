@@ -90,24 +90,117 @@ table {
 	}
 }
 /*main_banner*/
-.main_banner{
+.main_banner_content{
+	width:1920px;
 	height:750px;
+	background:url('../image/section_invite.jpg') no-repeat 0 0;
+	margin:0 auto;
 }
-
 /*creator*/
-.creator{
+.creator_content{
+	width:980px;
 	height:822px;
+	background:url('../image/section_creator.jpg') no-repeat 0 0;
+	margin:0 auto;
 }
 /*store*/
-.store{
-	height:1084;
+.store_content{
+	width:1920px;
+	height:1084px;
+	background:url('../image/section_store.jpg') no-repeat 0 0;
+	margin:0 auto;
+}
+.store_content li{
+	float: left;
+}
+.apple_img{
+	width:230px;
+	height:230px;
+	background:url('../image/thumbnail_apple.jpg') no-repeat 0 0;
+}
+.onion_img{
+	width:230px;
+	height:230px;
+	background:url('../image/thumbnail_onion.jpg') no-repeat 0 0;
+}
+.banana_img{
+	width:230px;
+	height:230px;
+	background:url('../image/thumbnail_banana.jpg') no-repeat 0 0;
+}
+.kiwi_img{
+	width:230px;
+	height:230px;
+	background:url('../image/thumbnail_kiwi.jpg') no-repeat 0 0;
+}
+.broccoli_img{
+	width:230px;
+	height:230px;
+	background:url('../image/thumbnail_broccoli.jpg') no-repeat 0 0;
+}
+.lemon_img{
+	width:230px;
+	height:230px;
+	background:url('../image/thumbnail_lemon.jpg') no-repeat 0 0;
+}
+.garlic_img{
+	width:230px;
+	height:230px;
+	background:url('../image/thumbnail_garlic.jpg') no-repeat 0 0;
+}
+.tomato_img{
+	width:230px;
+	height:230px;
+	background:url('../image/thumbnail_tomato.jpg') no-repeat 0 0;
+}
+.sales_info{
+	width:230px;
+	height:230px;
+	background-color:rgb(96,132,2);
+	opacity: 90%;
+}
+.sale_rate{
+	font-size:65px;
+	color:#fff;
+	text-align:center;
+	padding-top:70px;
+}
+.sale_time{
+	font-size:20px;
+	color:#fff;
+	text-align:center;
+	vertical-align: middle;
 }
 /*recipe*/
-.recipe{
+.recipe_content{
+	width:1920px;
 	height:1030px;
+	background:url('../image/pattern_recipe.png');
+	background-repeat: repeat-x;
+	margin: 0 auto;
+}
+.go_to_recipe{
+	width : 310px;
+	height:91px;
+	background:url('../image/go_recipe.gif') no-repeat 0 0 ;
+	margin:0 auto;
+}
+.go_to_recipe:hover{
+	background:url('../image/go_recipe_over.gif') no-repeat 0 0;
 }
 /*FAQ*/
-
+.FAQ_content{
+	width:1920px;
+	margin : 0 auto;
+}
+.FAQ_title{
+	width:98px;
+	height:50px;
+	background:url('../image/title_faq.gif') no-repeat 0 0;
+	margin: 0 auto;
+	margin-top:120px;
+	margin-bottom:40px;
+}
 /*footer*/
 .footer_part{
 	height:80px;
