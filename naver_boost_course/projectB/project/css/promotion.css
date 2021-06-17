@@ -76,7 +76,7 @@ a{
 }
 .logo_part{
 	padding-top:20px;
-	padding-left:200px;
+	padding-left:500px;
 }
 /*main 반응형 설정*/
 @media all and (min-width:1920px){
@@ -218,16 +218,44 @@ a{
 	color:#1b1d21;
 }
 /*recipe*/
-.recipe_content{
+.recipe_background{
 	width:1920px;
 	height:1030px;
 	background:url('../image/pattern_recipe.png');
 	background-repeat: repeat-x;
+	background-position: center;
 	margin: 0 auto;
+}
+.recipe_content{
+	width:980px;
+	height:681px;
+	position:relative;
+	top:100px;
+	background:url('../image/section_recipe.png') no-repeat 0 0;
+	margin:0 auto;
+}
+.recipe_content li{
+	float:left;
+}
+.cake{
+	width : 480px;
+	height:480px;
+	position: relative;
+	top:200px;
+	left:0;
+}
+.pudding{
+	width : 480px;
+	height:480px;
+	position: relative;
+	top:200px;
+	left:20px;
 }
 .go_to_recipe{
 	width : 310px;
 	height:91px;
+	position:relative;
+	top:150px;
 	background:url('../image/go_recipe.gif') no-repeat 0 0 ;
 	margin:0 auto;
 }
@@ -236,7 +264,7 @@ a{
 }
 /*FAQ*/
 .FAQ_content{
-	width:1920px;
+	width:980px;
 	margin : 0 auto;
 }
 .FAQ_title{
@@ -246,6 +274,32 @@ a{
 	margin: 0 auto;
 	margin-top:120px;
 	margin-bottom:40px;
+}
+.q_mark, .a_mark{
+	float: left;
+}
+.more{
+	width:23px;
+	height:12px;
+	background:url('../image/icon_arrow_down.gif') no-repeat 0 0;
+	position : relative;
+	right:0;
+	top:0;
+}
+.question{
+	line-height:28px;
+	font-size:20px;
+	font-weight:bold;
+	color:#1b1d21;
+	padding:20px 10px;
+}
+.answer{
+	line-height:28px;
+	font-size:16px;
+	color:#60656e;
+	padding:20px 10px;
+	background-color:#f7f8fa;
+	border-bottom:1px solid #a1a5ad;
 }
 /*footer*/
 .footer_part{
