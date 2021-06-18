@@ -277,14 +277,18 @@ a{
 }
 .q_mark, .a_mark{
 	float: left;
+	display:block;
+}
+.q_content{
+	display:block;
+	clear:both;
 }
 .more{
 	width:23px;
-	height:12px;
+	height:inherit;
 	background:url('../image/icon_arrow_down.gif') no-repeat 0 0;
-	position : relative;
-	right:0;
-	top:0;
+	display:block;
+	float:right;
 }
 .question{
 	line-height:28px;
