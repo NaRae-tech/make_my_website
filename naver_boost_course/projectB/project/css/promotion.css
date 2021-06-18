@@ -66,6 +66,7 @@ a{
 	position:fixed;
 	top:0px;
 	left:0px;
+	z-index:100;
 }
 @media all and (min-width:979px){
 	.header_part{
@@ -239,14 +240,14 @@ a{
 }
 .cake{
 	width : 480px;
-	height:480px;
+	height:482px;
 	position: relative;
 	top:200px;
 	left:0;
 }
 .pudding{
 	width : 480px;
-	height:480px;
+	height:482px;
 	position: relative;
 	top:200px;
 	left:20px;
@@ -276,32 +277,38 @@ a{
 	margin-bottom:40px;
 }
 .q_mark, .a_mark{
+	width:auto;
+	height:100%;
+	margin-right:10px;
 	float: left;
 	display:block;
 }
 .q_content{
-	display:block;
 	clear:both;
 }
 .more{
-	width:23px;
-	height:inherit;
+	width:40px;
+	height:40px;
 	background:url('../image/icon_arrow_down.gif') no-repeat 0 0;
-	display:block;
 	float:right;
+}
+.more:focus{
+	background:url('../image/icon_arrow_up.gif') no-repeat 0 0;
 }
 .question{
 	line-height:28px;
 	font-size:20px;
 	font-weight:bold;
 	color:#1b1d21;
-	padding:20px 10px;
+	padding:30px 10px;
+	border:1px solid #a1a5ad;
+	border-left:none; border-right:none;
 }
 .answer{
 	line-height:28px;
 	font-size:16px;
 	color:#60656e;
-	padding:20px 10px;
+	padding:30px 10px;
 	background-color:#f7f8fa;
 	border-bottom:1px solid #a1a5ad;
 }

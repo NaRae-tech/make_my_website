@@ -225,20 +225,28 @@
             <li>
               <div class="question"> 
                 <img src="image/icon_question.gif" class="q_mark" alt="질문">
-                <p class="q_content">푸드 파트너가 되려면 어떻게 해야 하나요? 푸드위드 회원인 경우 푸드 파트너를 따로 신청하지 않아도 되나요?</p>
-                <button class="more">
+                <span class="q_content">푸드 파트너가 되려면 어떻게 해야 하나요? 푸드위드 회원인 경우 푸드 파트너를 따로 신청하지 않아도 되나요?</span>
+                <button class="more" id="ans">
                   <span class="blind">질문의 답 확인</span>
                 </button>
               </div>
-              <div class="answer">
-                <img src="image/icon_answer.gif" class="a_mark" alt="답">
-                <p>푸드위드에 가입해주세요. 가입 후 푸드파트너 메뉴에 신청해주시면 자격 조건을 A 확인 후 파트너가 될 수 있어요.</p>
-              </div>
+              <script>
+                /* id="ans", .onclick 이용해서 
+                 1. button 이미지 변경
+                 2. question있는 div border-bottom 없어지게 하기
+                 3. answer와 a_mark 있는 div 나타나게 하기(bottom에 줄있음)
+
+                 <div class="answer">
+                    <img src="image/icon_answer.gif" class="a_mark" alt="답">
+                    <p>푸드위드에 가입해주세요. 가입 후 푸드파트너 메뉴에 신청해주시면 자격 조건을 A 확인 후 파트너가 될 수 있어요.</p>
+                  </div>
+                */
+              </script>
             </li>
             <li>
               <div class="question"> 
                 <img src="image/icon_question.gif" class="q_mark" alt="질문">
-                <p>아이디와 비밀번호를 잊어버렸어요</p>
+                <div>아이디와 비밀번호를 잊어버렸어요</div>
                 <button class="more">
                   <span class="blind">질문의 답 확인</span>
                 </button>
