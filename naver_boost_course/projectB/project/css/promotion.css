@@ -282,14 +282,12 @@ a{
 	overflow:hidden;
 }
 .q_mark_box{
-	width:80px;
-	height:80px;
 	float:left;
 }
 .q_mark{
-	width: 30px;
-	height:30px;
-	padding:30px 25px;
+	width: 25px;
+	height:25px;
+	padding: 30px 20px;
 }
 .q_content{
 	width: 80%;
@@ -308,8 +306,8 @@ a{
 }
 .more_mark{
 	background:url('../image/icon_arrow_down.gif') no-repeat 0 0;
-	width:30px;
-	height:30px;
+	width:100%;
+	height:100%;
 	padding : 30px 10px;
 	border:none;
 }
@@ -357,8 +355,8 @@ a{
 	overflow:hidden;
 }
 .a_mark{
-	width: 30px;
-	height:30px;
+	width: 25px;
+	height:20px;
 	padding : 30px 20px;
 	display:block;
 	float:left;
