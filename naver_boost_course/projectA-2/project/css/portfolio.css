@@ -4,7 +4,7 @@
    License: none (public domain)
 */
 /*내가 사용한 tag들만 초기화로 바꾸기*/
-html, body, div, span,
+html, body, div, span, 
 h1, h2, h3, h4, h5, h6, p,a, address, img,dl, dt, dd, ol, ul, li,form, label, 
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, details,footer, header,nav, section {
@@ -450,7 +450,7 @@ article{
 .webtoon_content li:nth-child(3), .webtoon_content li:nth-child(6){
   margin-right:21px;
 }
-.webtoon_content li:nth-child(4), li:nth-child(5), li:nth-child(6){
+.webtoon_content li:nth-child(4), .webtoon_content li:nth-child(5), .webtoon_content li:nth-child(6){
   margin-bottom:20px;
 }
 .webtoon_content div:hover{
@@ -495,5 +495,5 @@ article{
   font-size:12px; 
   color : #000; 
   text-align : center; 
-  padding-top:10px;
+  padding-top:5px;
 }
