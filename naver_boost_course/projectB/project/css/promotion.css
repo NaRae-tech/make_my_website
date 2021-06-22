@@ -46,6 +46,16 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+a{
+	text-decoration:none;
+	cursor:pointer;
+}
+button{
+	border:0;
+	background:transparent;
+	cursor:pointer;
+	outline:none;
+}
 .blind{
 	position:absolute;
 	width:1px; 
@@ -53,10 +63,6 @@ table {
 	clip:rect(0 0 0 0);
 	margin:-1px;
 	overflow:hidden;
-}
-a{
-	text-decoration:none;
-	cursor:grab;
 }
 /*header*/
 .header_part{
@@ -290,7 +296,7 @@ a{
 	padding: 30px 20px;
 }
 .q_content{
-	width: 80%;
+	width: 830px;
 	line-height:28px;
 	font-size:20px;
 	font-weight:bold;
@@ -299,56 +305,26 @@ a{
 	margin:0 auto;
 	float:left;
 }
-.more_mark_box{
-	width:80px;
-	height:100%;
-	float: right;
-}
 .more_mark{
-	background:url('../image/icon_arrow_down.gif') no-repeat 0 0;
-	width:100%;
-	height:100%;
-	padding : 30px 10px;
-	border:none;
-}
-
-/*
-.q_mark, .a_mark{
-	width:auto;
-	height:80px;
-	margin-right:10px;
-	float: left;
-	display:block;
-}
-.q_content{
-	float:left;
-}
-.more{
-	width:40px;
-	height:80px;
-	background:url('../image/icon_arrow_down.gif') no-repeat 0 0;
+	width:85px;
+	height:85px;
+	padding: 36px 30px;
 	float:right;
-	display:block;
 }
-.more:focus{
-	background:url('../image/icon_arrow_up.gif') no-repeat 0 0;
+.more_mark::after{
+	content: '';
+	display: block;
+	width: 23px;
+	height: 12px;
+	background: url(../image/icon_arrow_down.gif) no-repeat 0 0;
+	background-size: 23px 12px;
 }
-.question{
-	line-height:28px;
-	font-size:20px;
-	font-weight:bold;
-	color:#1b1d21;
-	padding:30px 10px;
-	border:1px solid #a1a5ad;
-	border-left:none; border-right:none;
-	overflow:hidden;
+.FAQ>ul>li.active .more_mark::after{
+	width: 23px;
+	height: 12px;
+	background : url(../image/icon_arrow_up.gif) no-repeat 0 0;
+	background-size: 23px 12px;
 }
-.question:after{
-	display:block;
-	clear:both;
-	content:"";
-}
-*/
 .answer{
 	background-color:#f7f8fa;
 	border-bottom:1px solid #a1a5ad;
