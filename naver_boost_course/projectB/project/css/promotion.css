@@ -70,8 +70,7 @@ button{
 	background-color:rgb(64,64,64);
 	opacity:75%;
 	position:fixed;
-	top:0px;
-	left:0px;
+	top:0px;	left:0px;	right:0px;
 	z-index:100;
 }
 @media all and (min-width:979px){
@@ -99,6 +98,15 @@ button{
 	.recipe{
 		background-color:#b893f9;
 	}
+}
+html, body, .wrap{
+	height:100%;
+}
+.container{
+	min-height:100%;
+	margin-top:-80px;
+	padding-top:80px;
+	box-sizing: border-box;
 }
 /*main_banner*/
 .main_banner_content{
