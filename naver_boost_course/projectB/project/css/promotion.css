@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
+@charset "UTF-8";
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -19,6 +19,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
+	font-family: '나눔 고딕', NanumGothic, '돋움', Dotum, sans-serif;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -87,15 +88,19 @@ button{
 /*main 반응형 설정*/
 @media all and (min-width:1920px){
 	.main_banner{
+		width:100%;
 		background-color:#fff;
 	}
 	.creator{
+		width:100%;
 		background-color:#ff939d;
 	}
 	.store{
+		width:100%;
 		background-color:#d5e43f;
 	}
 	.recipe{
+		width:100%;
 		background-color:#b893f9;
 	}
 }
@@ -253,6 +258,7 @@ html, body, .wrap{
 	float:left;
 }
 .cake{
+	display:block;
 	width : 480px;
 	height:482px;
 	position: relative;
@@ -260,6 +266,7 @@ html, body, .wrap{
 	left:0;
 }
 .pudding{
+	display:block;
 	width : 480px;
 	height:482px;
 	position: relative;
@@ -267,6 +274,7 @@ html, body, .wrap{
 	left:20px;
 }
 .go_to_recipe{
+	display:block;
 	width : 310px;
 	height:91px;
 	position:relative;
