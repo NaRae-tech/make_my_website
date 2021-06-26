@@ -335,12 +335,29 @@ html, body, .wrap{
 	background: url(../image/icon_arrow_down.gif) no-repeat 0 0;
 	background-size: 23px 12px;
 }
+.more_mark:hover,
+.more_makr.active{
+	position:relative;
+	content:'';
+	display:block;
+
+	background:url(../image/icon_arrow_up.gif) no-repeat 0 0;
+	background-size:23px 12px;
+}
+/*.more_mark::after{
+	content: '';
+	display: block;
+	width: 23px;
+	height: 12px;
+	background: url(../image/icon_arrow_down.gif) no-repeat 0 0;
+	background-size: 23px 12px;
+}
 .FAQ>ul>li.active .more_mark::after{
 	width: 23px;
 	height: 12px;
 	background : url(../image/icon_arrow_up.gif) no-repeat 0 0;
 	background-size: 23px 12px;
-}
+}*/
 .answer{
 	background-color:#f7f8fa;
 	border-bottom:1px solid #a1a5ad;
